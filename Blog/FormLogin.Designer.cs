@@ -169,11 +169,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Microsoft Uighur", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Transparent;
-            this.label7.Location = new System.Drawing.Point(32, 109);
+            this.label7.Location = new System.Drawing.Point(28, 127);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(368, 26);
+            this.label7.Size = new System.Drawing.Size(383, 19);
             this.label7.TabIndex = 3;
             this.label7.Text = "to welcome you to my blog hope you enjoy the fun we bring";
             // 
@@ -181,11 +181,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Microsoft Uighur", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(32, 83);
+            this.label6.Location = new System.Drawing.Point(28, 94);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(196, 26);
+            this.label6.Size = new System.Drawing.Size(200, 19);
             this.label6.TabIndex = 2;
             this.label6.Text = "Welcome and it is my pleasure ";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -193,11 +193,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Uighur", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Uighur", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(30, 46);
+            this.label5.Location = new System.Drawing.Point(29, 26);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(168, 37);
+            this.label5.Size = new System.Drawing.Size(225, 48);
             this.label5.TabIndex = 1;
             this.label5.Text = "Welcome to Blog";
             // 

@@ -32,8 +32,8 @@ namespace Blog
             using (var stream = response.GetResponseStream())
             {
                 ptbAvt.BackgroundImage = Bitmap.FromStream(stream);
+               
             }
-
             System.Drawing.Drawing2D.GraphicsPath gp = new System.Drawing.Drawing2D.GraphicsPath();
             gp.AddEllipse(0, 0, ptbAvt.Width - 1, ptbAvt.Height - 3);
             Region rg = new Region(gp);
@@ -249,6 +249,25 @@ namespace Blog
         }
 
         private void pnl1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            FormMessenger frm = new FormMessenger();
+            this.Hide(); 
+            frm.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FormDisplayPost fr = new FormDisplayPost();
+            this.Hide();
+           fr.Show();
+        }
+
+        private void FormDisplayPost_Load(object sender, EventArgs e)
         {
 
         }
