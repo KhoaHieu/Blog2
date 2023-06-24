@@ -81,6 +81,13 @@ namespace Blog
             }
             else
                 load1Image();
+            var request2 = WebRequest.Create(Class.CurrUser.ins.Avt);
+            using (var response = request2.GetResponse())
+            using (var stream = response.GetResponseStream())
+            {
+                pictureBox1.BackgroundImage = Bitmap.FromStream(stream);
+            }
+
 
 
 
@@ -89,8 +96,8 @@ namespace Blog
         private void load2Image()
         {
             var request1 = WebRequest.Create(post.Image1);
-            using (var response1 = request1.GetResponse()) 
-            using(var stream1 = response1.GetResponseStream())
+            using (var response1 = request1.GetResponse())
+            using (var stream1 = response1.GetResponseStream())
             {
                 ptbImage21.BackgroundImage = Bitmap.FromStream(stream1);
             }
@@ -112,7 +119,7 @@ namespace Blog
                 ptbImage1.BackgroundImage = Bitmap.FromStream(stream);
             }
 
-          
+
         }
 
         private void panelimage_Paint(object sender, PaintEventArgs e)

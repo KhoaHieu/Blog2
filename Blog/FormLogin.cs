@@ -24,7 +24,9 @@ namespace Blog
         private void InitializeComponents()
         {
             // Đặt hình nền cho form
-            backgroundImage = Image.FromFile("D:\\Backup\\Năm 3\\C#\\Blog\\Blog\\Resources\\background11.png");
+            string mypath = @"D:\Workspace\Template\Blog2\Blog\Resources\background11.png";
+            //backgroundImage = Image.FromFile("D:\\Backup\\Năm 3\\C#\\Blog\\Blog\\Resources\\background11.png");
+            backgroundImage = Image.FromFile(mypath);
             this.BackgroundImageLayout = ImageLayout.Stretch;
             txbUN.BorderStyle = BorderStyle.FixedSingle;
 
@@ -122,12 +124,12 @@ namespace Blog
                     }
                 }
             }
-            if(!check)
+            if (!check)
             {
                 MessageBox.Show("Wrong user name or password", "warning", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-           // MessageBox.Show("ok", "ok");
+            // MessageBox.Show("ok", "ok");
             FormDisplayPost frm = new FormDisplayPost();
             this.Hide();
             frm.Show();
@@ -154,7 +156,7 @@ namespace Blog
 
         private void FormLogin_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void label6_Click(object sender, EventArgs e)
@@ -165,6 +167,14 @@ namespace Blog
         private void txbUN_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void txbPW_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnSubmit_Click(sender, e);
+            }
         }
     }
 }

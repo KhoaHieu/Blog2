@@ -90,6 +90,7 @@
             this.txbPW.PasswordChar = '*';
             this.txbPW.Size = new System.Drawing.Size(303, 32);
             this.txbPW.TabIndex = 3;
+            this.txbPW.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txbPW_KeyDown);
             // 
             // btnSubmit
             // 

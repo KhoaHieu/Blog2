@@ -26,18 +26,29 @@ namespace Blog
 
             makeOrder();
             loadNext();
+            label3.Text = Class.CurrUser.ins.UserName;
 
             var request = WebRequest.Create(Class.CurrUser.ins.Avt);
             using (var response = request.GetResponse())
             using (var stream = response.GetResponseStream())
             {
+                pictureBox1.BackgroundImage = Bitmap.FromStream(stream);
+            }
+
+            var request2 = WebRequest.Create(Class.CurrUser.ins.Avt);
+            using (var response = request2.GetResponse())
+            using (var stream = response.GetResponseStream())
+            {
                 ptbAvt.BackgroundImage = Bitmap.FromStream(stream);
             }
+
+
 
             System.Drawing.Drawing2D.GraphicsPath gp = new System.Drawing.Drawing2D.GraphicsPath();
             gp.AddEllipse(0, 0, ptbAvt.Width - 1, ptbAvt.Height - 3);
             Region rg = new Region(gp);
             ptbAvt.Region = rg;
+
         }
 
         private void makeOrder()
@@ -55,7 +66,7 @@ namespace Blog
                 num = rd.Next(0, size);
                 if (num >= 0 && num < size && isShow[num] == false)
                 {
-                    isShow[num] = true; 
+                    isShow[num] = true;
                     order.Add(num);
                     count++;
                 }
@@ -65,7 +76,7 @@ namespace Blog
         private void loadNext()
         {
             index++;
-            if(index == size)
+            if (index == size)
                 index = 0;
 
             pnlPost.Controls.Clear();
@@ -84,7 +95,7 @@ namespace Blog
         {
             index--;
             if (index == -1)
-                index = size-1;
+                index = size - 1;
 
             pnlPost.Controls.Clear();
             FormPost frm = new FormPost(order[index]);
@@ -99,9 +110,9 @@ namespace Blog
         private void loadCmt(int idx)
         {
             List<Class.Cmt> list = new List<Class.Cmt>();
-            Console.WriteLine("post index: "+idx);
+            Console.WriteLine("post index: " + idx);
             bool check = false;
-            while (list.Count < 4 && idxCmt >=0)
+            while (list.Count < 4 && idxCmt >= 0)
             {
                 Console.WriteLine("cmt index: " + Class.ListCmt.Instance.List[idxCmt].PostId);
 
@@ -122,6 +133,11 @@ namespace Blog
                 lblContent2.Text = "";
                 lblContent3.Text = "";
                 lblContent4.Text = "";
+                pb001.BackgroundImage = null;
+                pb002.BackgroundImage = null;
+                pb003.BackgroundImage = null;
+                pb004.BackgroundImage = null;
+
                 idxCmt = Class.ListCmt.Instance.List.Count - 1;
 
                 return;
@@ -134,12 +150,20 @@ namespace Blog
 
             pnl1.Controls.Add(lblUN1);
             pnl1.Controls.Add(lblContent1);
+            pnl1.Controls.Add(pb001);
+
+
             pnl2.Controls.Add(lblUN2);
             pnl2.Controls.Add(lblContent2);
+            pnl2.Controls.Add(pb002);
+
             pnl3.Controls.Add(lblUN3);
             pnl3.Controls.Add(lblContent3);
+            pnl3.Controls.Add(pb003);
+
             pnl4.Controls.Add(lblUN4);
             pnl4.Controls.Add(lblContent4);
+            pnl4.Controls.Add(pb004);
 
             pnlCmt.Controls.Add(pnl1);
             pnlCmt.Controls.Add(pnl2);
@@ -149,9 +173,31 @@ namespace Blog
 
             for (int j = 0; j < list.Count; j++)
             {
+                string name = list[j].UserName;
+                string avt = "";
+                //tìm kiếm trong list user xem có user nào trùng tên với name không
+                foreach (Class.User u in Class.ListUser.Instance.List)
+                {
+                    if (u.UserName == name)
+                    {
+                        avt = u.Avt;
+                        break;
+                    }
+                }
+
+
+                var request = WebRequest.Create(avt);
+                using (var response = request.GetResponse())
+                using (var stream = response.GetResponseStream())
+                {
+                    pnlCmt.Controls[j].Controls[2].BackgroundImage = Bitmap.FromStream(stream);
+                }
+                pnlCmt.Controls[j].Controls[2].BackgroundImageLayout = ImageLayout.Stretch;
                 pnlCmt.Controls[j].Controls[0].Text = list[j].UserName;
+
+
                 pnlCmt.Controls[j].Controls[1].Text = list[j].Content;
-                Console.WriteLine("size: ",list[j].Content);
+                Console.WriteLine("size: ", list[j].Content);
             }
         }
 
@@ -199,7 +245,7 @@ namespace Blog
             Class.Cmt cmt = new Class.Cmt(order[index], Class.CurrUser.ins.UserName, txbCmt.Text);
             Class.ListCmt.Instance.List.Add(cmt);
 
-            idxCmt = Class.ListCmt.Instance.List.Count-1;
+            idxCmt = Class.ListCmt.Instance.List.Count - 1;
             loadCmt(order[index]);
             WriteData();
         }
@@ -220,7 +266,7 @@ namespace Blog
             FormAcount frm = new FormAcount();
             this.Hide();
             frm.Show();
-            
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
