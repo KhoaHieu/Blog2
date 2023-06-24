@@ -124,8 +124,14 @@
   <data name="istockphoto-1362223693-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\istockphoto-1362223693-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cmt4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cmt4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dangbai2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dangbai2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Picture8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Picture8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cmt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cmt1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -165,9 +171,6 @@
   </data>
   <data name="background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="reister11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\reister1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="346898670_23853792362690539_8766916854932643726_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\346898670_23853792362690539_8766916854932643726_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,8 +232,8 @@
   <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Picture8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Picture8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="reister11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reister1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pngtree-gallery-icon-for-your-project-png-image_17311001" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngtree-gallery-icon-for-your-project-png-image_17311001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,7 +247,10 @@
   <data name="dangbai3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dangbai3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cmt4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cmt4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Picture82" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Picture82.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cmt5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cmt5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

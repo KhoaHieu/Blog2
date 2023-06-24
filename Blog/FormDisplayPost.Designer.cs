@@ -56,7 +56,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button8 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.ptbSend = new System.Windows.Forms.PictureBox();
             this.pnlCmt = new System.Windows.Forms.Panel();
@@ -372,7 +371,6 @@
             this.panel4.BackgroundImage = global::Blog.Properties.Resources.dangbai;
             this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel4.Controls.Add(this.pictureBox1);
-            this.panel4.Controls.Add(this.button8);
             this.panel4.Controls.Add(this.button4);
             this.panel4.Location = new System.Drawing.Point(24, 80);
             this.panel4.Name = "panel4";
@@ -389,16 +387,6 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // button8
-            // 
-            this.button8.BackgroundImage = global::Blog.Properties.Resources.pngtree_gallery_icon_for_your_project_png_image_17311001;
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button8.Location = new System.Drawing.Point(591, 3);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(104, 87);
-            this.button8.TabIndex = 12;
-            this.button8.UseVisualStyleBackColor = true;
-            // 
             // button4
             // 
             this.button4.BackgroundImage = global::Blog.Properties.Resources.textnooutline;
@@ -407,7 +395,7 @@
             this.button4.ForeColor = System.Drawing.Color.Black;
             this.button4.Location = new System.Drawing.Point(103, 12);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(469, 61);
+            this.button4.Size = new System.Drawing.Size(568, 61);
             this.button4.TabIndex = 10;
             this.button4.Text = "Post some thing!";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -435,6 +423,7 @@
             this.pnlCmt.Controls.Add(this.pnl3);
             this.pnlCmt.Controls.Add(this.pnl2);
             this.pnlCmt.Controls.Add(this.pnl1);
+            this.pnlCmt.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnlCmt.Location = new System.Drawing.Point(740, 358);
             this.pnlCmt.Name = "pnlCmt";
             this.pnlCmt.Size = new System.Drawing.Size(281, 436);
@@ -445,6 +434,7 @@
             this.pnl4.Controls.Add(this.pb004);
             this.pnl4.Controls.Add(this.lblUN4);
             this.pnl4.Controls.Add(this.lblContent4);
+            this.pnl4.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnl4.Location = new System.Drawing.Point(21, 321);
             this.pnl4.Name = "pnl4";
             this.pnl4.Size = new System.Drawing.Size(235, 100);
@@ -464,6 +454,7 @@
             // lblContent4
             // 
             this.lblContent4.AllowDrop = true;
+            this.lblContent4.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContent4.Location = new System.Drawing.Point(18, 40);
             this.lblContent4.Name = "lblContent4";
             this.lblContent4.Size = new System.Drawing.Size(156, 48);
@@ -474,6 +465,7 @@
             this.pnl3.Controls.Add(this.pb003);
             this.pnl3.Controls.Add(this.lblUN3);
             this.pnl3.Controls.Add(this.lblContent3);
+            this.pnl3.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnl3.Location = new System.Drawing.Point(21, 215);
             this.pnl3.Name = "pnl3";
             this.pnl3.Size = new System.Drawing.Size(232, 100);
@@ -491,6 +483,7 @@
             // lblContent3
             // 
             this.lblContent3.AllowDrop = true;
+            this.lblContent3.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContent3.Location = new System.Drawing.Point(18, 40);
             this.lblContent3.Name = "lblContent3";
             this.lblContent3.Size = new System.Drawing.Size(156, 48);
@@ -501,6 +494,7 @@
             this.pnl2.Controls.Add(this.pb002);
             this.pnl2.Controls.Add(this.lblUN2);
             this.pnl2.Controls.Add(this.lblContent2);
+            this.pnl2.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnl2.Location = new System.Drawing.Point(21, 109);
             this.pnl2.Name = "pnl2";
             this.pnl2.Size = new System.Drawing.Size(232, 100);
@@ -519,6 +513,7 @@
             // lblContent2
             // 
             this.lblContent2.AllowDrop = true;
+            this.lblContent2.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContent2.Location = new System.Drawing.Point(18, 40);
             this.lblContent2.Name = "lblContent2";
             this.lblContent2.Size = new System.Drawing.Size(156, 48);
@@ -529,6 +524,7 @@
             this.pnl1.Controls.Add(this.pb001);
             this.pnl1.Controls.Add(this.lblUN1);
             this.pnl1.Controls.Add(this.lblContent1);
+            this.pnl1.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnl1.Location = new System.Drawing.Point(21, 3);
             this.pnl1.Name = "pnl1";
             this.pnl1.Size = new System.Drawing.Size(232, 100);
@@ -548,7 +544,7 @@
             // lblContent1
             // 
             this.lblContent1.AllowDrop = true;
-            this.lblContent1.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContent1.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContent1.Location = new System.Drawing.Point(28, 40);
             this.lblContent1.Name = "lblContent1";
             this.lblContent1.Size = new System.Drawing.Size(156, 48);
@@ -634,6 +630,7 @@
             this.Name = "FormDisplayPost";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "   ";
+            this.Load += new System.EventHandler(this.FormDisplayPost_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -699,7 +696,6 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button8;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;

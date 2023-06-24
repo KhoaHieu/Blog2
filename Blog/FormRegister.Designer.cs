@@ -54,6 +54,7 @@
             // 
             // txbUN
             // 
+            this.txbUN.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbUN.Location = new System.Drawing.Point(13, 82);
             this.txbUN.Multiline = true;
             this.txbUN.Name = "txbUN";
@@ -62,22 +63,27 @@
             // 
             // txbPW
             // 
+            this.txbPW.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbPW.Location = new System.Drawing.Point(13, 227);
             this.txbPW.Multiline = true;
             this.txbPW.Name = "txbPW";
+            this.txbPW.PasswordChar = '*';
             this.txbPW.Size = new System.Drawing.Size(325, 42);
             this.txbPW.TabIndex = 2;
             // 
             // txbEmail
             // 
+            this.txbEmail.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbEmail.Location = new System.Drawing.Point(13, 154);
             this.txbEmail.Multiline = true;
             this.txbEmail.Name = "txbEmail";
+            this.txbEmail.PasswordChar = '*';
             this.txbEmail.Size = new System.Drawing.Size(325, 44);
             this.txbEmail.TabIndex = 3;
             // 
             // txbCPW
             // 
+            this.txbCPW.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbCPW.Location = new System.Drawing.Point(15, 295);
             this.txbCPW.Multiline = true;
             this.txbCPW.Name = "txbCPW";
@@ -137,9 +143,10 @@
             // 
             // btnOpen
             // 
-            this.btnOpen.Location = new System.Drawing.Point(15, 489);
+            this.btnOpen.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOpen.Location = new System.Drawing.Point(13, 613);
             this.btnOpen.Name = "btnOpen";
-            this.btnOpen.Size = new System.Drawing.Size(131, 29);
+            this.btnOpen.Size = new System.Drawing.Size(159, 45);
             this.btnOpen.TabIndex = 13;
             this.btnOpen.Text = "Choose image";
             this.btnOpen.UseVisualStyleBackColor = true;
@@ -158,9 +165,9 @@
             this.btnLogin.BackColor = System.Drawing.Color.SteelBlue;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(239, 524);
+            this.btnLogin.Location = new System.Drawing.Point(212, 664);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(99, 41);
+            this.btnLogin.Size = new System.Drawing.Size(126, 60);
             this.btnLogin.TabIndex = 15;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
@@ -171,9 +178,9 @@
             this.btnSubmit.BackColor = System.Drawing.Color.SteelBlue;
             this.btnSubmit.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubmit.ForeColor = System.Drawing.Color.White;
-            this.btnSubmit.Location = new System.Drawing.Point(15, 524);
+            this.btnSubmit.Location = new System.Drawing.Point(13, 664);
             this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(99, 41);
+            this.btnSubmit.Size = new System.Drawing.Size(126, 60);
             this.btnSubmit.TabIndex = 16;
             this.btnSubmit.Text = "Register";
             this.btnSubmit.UseVisualStyleBackColor = false;
@@ -199,7 +206,7 @@
             this.panel1.Controls.Add(this.txbUN);
             this.panel1.Location = new System.Drawing.Point(91, 40);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(377, 584);
+            this.panel1.Size = new System.Drawing.Size(377, 741);
             this.panel1.TabIndex = 17;
             // 
             // label2
@@ -214,11 +221,12 @@
             // 
             // ptb1
             // 
+            this.ptb1.BackColor = System.Drawing.Color.Gray;
             this.ptb1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ptb1.BackgroundImage")));
             this.ptb1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ptb1.Location = new System.Drawing.Point(15, 401);
             this.ptb1.Name = "ptb1";
-            this.ptb1.Size = new System.Drawing.Size(126, 82);
+            this.ptb1.Size = new System.Drawing.Size(259, 191);
             this.ptb1.TabIndex = 6;
             this.ptb1.TabStop = false;
             // 
@@ -229,18 +237,18 @@
             this.panel2.Controls.Add(this.label7);
             this.panel2.Location = new System.Drawing.Point(465, 40);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(459, 584);
+            this.panel2.Size = new System.Drawing.Size(459, 741);
             this.panel2.TabIndex = 18;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Bauhaus 93", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Bauhaus 93", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(74, 175);
+            this.label7.Location = new System.Drawing.Point(3, 327);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(319, 49);
+            this.label7.Size = new System.Drawing.Size(439, 68);
             this.label7.TabIndex = 0;
             this.label7.Text = "Welcome Page";
             // 
@@ -251,7 +259,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::Blog.Properties.Resources.reister1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1033, 676);
+            this.ClientSize = new System.Drawing.Size(1030, 839);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;

@@ -298,5 +298,24 @@ namespace Blog
         {
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            FormMessenger frm = new FormMessenger();
+            this.Hide(); 
+            frm.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FormDisplayPost fr = new FormDisplayPost();
+            this.Hide();
+           fr.Show();
+        }
+
+        private void FormDisplayPost_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

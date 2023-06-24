@@ -38,6 +38,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.ptb2 = new System.Windows.Forms.PictureBox();
             this.chb1 = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -45,14 +46,13 @@
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.ptb2 = new System.Windows.Forms.PictureBox();
             this.ptb1 = new System.Windows.Forms.PictureBox();
             this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb2)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptb2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptb1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -90,7 +90,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Bauhaus 93", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(114, -1);
+            this.label8.Location = new System.Drawing.Point(344, -1);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(341, 42);
             this.label8.TabIndex = 7;
@@ -98,27 +98,30 @@
             // 
             // txbTitle
             // 
-            this.txbTitle.Location = new System.Drawing.Point(110, 141);
+            this.txbTitle.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbTitle.Location = new System.Drawing.Point(98, 141);
             this.txbTitle.Multiline = true;
             this.txbTitle.Name = "txbTitle";
-            this.txbTitle.Size = new System.Drawing.Size(413, 38);
+            this.txbTitle.Size = new System.Drawing.Size(771, 38);
             this.txbTitle.TabIndex = 10;
             // 
             // txbContent
             // 
             this.txbContent.AllowDrop = true;
+            this.txbContent.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbContent.Location = new System.Drawing.Point(110, 196);
             this.txbContent.Multiline = true;
             this.txbContent.Name = "txbContent";
-            this.txbContent.Size = new System.Drawing.Size(413, 105);
+            this.txbContent.Size = new System.Drawing.Size(759, 105);
             this.txbContent.TabIndex = 11;
             // 
             // cboTag
             // 
+            this.cboTag.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboTag.FormattingEnabled = true;
             this.cboTag.Location = new System.Drawing.Point(110, 321);
             this.cboTag.Name = "cboTag";
-            this.cboTag.Size = new System.Drawing.Size(177, 24);
+            this.cboTag.Size = new System.Drawing.Size(759, 27);
             this.cboTag.TabIndex = 12;
             // 
             // button2
@@ -135,9 +138,9 @@
             // 
             this.btnSave.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnSave.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(12, 676);
+            this.btnSave.Location = new System.Drawing.Point(12, 785);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(531, 42);
+            this.btnSave.Size = new System.Drawing.Size(1017, 42);
             this.btnSave.TabIndex = 17;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = false;
@@ -147,16 +150,25 @@
             // 
             this.panel1.Controls.Add(this.ptb2);
             this.panel1.Controls.Add(this.button2);
-            this.panel1.Location = new System.Drawing.Point(12, 476);
+            this.panel1.Location = new System.Drawing.Point(351, 569);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(366, 138);
+            this.panel1.Size = new System.Drawing.Size(366, 154);
             this.panel1.TabIndex = 19;
             this.panel1.Visible = false;
+            // 
+            // ptb2
+            // 
+            this.ptb2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ptb2.Location = new System.Drawing.Point(165, 29);
+            this.ptb2.Name = "ptb2";
+            this.ptb2.Size = new System.Drawing.Size(178, 89);
+            this.ptb2.TabIndex = 14;
+            this.ptb2.TabStop = false;
             // 
             // chb1
             // 
             this.chb1.AutoSize = true;
-            this.chb1.Location = new System.Drawing.Point(320, 323);
+            this.chb1.Location = new System.Drawing.Point(924, 325);
             this.chb1.Name = "chb1";
             this.chb1.Size = new System.Drawing.Size(84, 20);
             this.chb1.TabIndex = 20;
@@ -179,16 +191,16 @@
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.button1);
-            this.panel2.Location = new System.Drawing.Point(12, 620);
+            this.panel2.Location = new System.Drawing.Point(12, 729);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(531, 50);
+            this.panel2.Size = new System.Drawing.Size(1017, 50);
             this.panel2.TabIndex = 25;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(9, 5);
+            this.label6.Location = new System.Drawing.Point(3, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(257, 37);
             this.label6.TabIndex = 0;
@@ -198,9 +210,9 @@
             // 
             this.button1.BackgroundImage = global::Blog.Properties.Resources.pngtree_gallery_icon_for_your_project_png_image_1731100;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(459, 5);
+            this.button1.Location = new System.Drawing.Point(940, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(52, 35);
+            this.button1.Size = new System.Drawing.Size(64, 40);
             this.button1.TabIndex = 15;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -211,7 +223,7 @@
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(2, 44);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(549, 10);
+            this.pictureBox2.Size = new System.Drawing.Size(1027, 10);
             this.pictureBox2.TabIndex = 24;
             this.pictureBox2.TabStop = false;
             // 
@@ -223,21 +235,12 @@
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
             // 
-            // ptb2
-            // 
-            this.ptb2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ptb2.Location = new System.Drawing.Point(165, 29);
-            this.ptb2.Name = "ptb2";
-            this.ptb2.Size = new System.Drawing.Size(178, 89);
-            this.ptb2.TabIndex = 14;
-            this.ptb2.TabStop = false;
-            // 
             // ptb1
             // 
             this.ptb1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ptb1.Location = new System.Drawing.Point(12, 360);
+            this.ptb1.Location = new System.Drawing.Point(351, 351);
             this.ptb1.Name = "ptb1";
-            this.ptb1.Size = new System.Drawing.Size(366, 110);
+            this.ptb1.Size = new System.Drawing.Size(366, 212);
             this.ptb1.TabIndex = 13;
             this.ptb1.TabStop = false;
             // 
@@ -245,7 +248,7 @@
             // 
             this.button5.BackgroundImage = global::Blog.Properties.Resources.logo;
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button5.Location = new System.Drawing.Point(483, 60);
+            this.button5.Location = new System.Drawing.Point(964, 60);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(60, 51);
             this.button5.TabIndex = 26;
@@ -258,7 +261,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(555, 730);
+            this.ClientSize = new System.Drawing.Size(1030, 839);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pictureBox2);
@@ -276,13 +279,14 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FormCreatePost";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormCreatePost";
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ptb2)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptb2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptb1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

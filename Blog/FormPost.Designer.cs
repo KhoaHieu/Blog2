@@ -36,7 +36,6 @@
             this.ptbImage21 = new System.Windows.Forms.PictureBox();
             this.ptbImage1 = new System.Windows.Forms.PictureBox();
             this.lblContent = new System.Windows.Forms.Label();
-            this.lblNumCmt = new System.Windows.Forms.Label();
             this.lblDate = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblTag = new System.Windows.Forms.Label();
@@ -51,7 +50,7 @@
             // panelimage
             // 
             this.panelimage.BackColor = System.Drawing.Color.Transparent;
-            this.panelimage.BackgroundImage = global::Blog.Properties.Resources.Picture3;
+            //this.panelimage.BackgroundImage = global::Blog.Properties.Resources.cmt5;
             this.panelimage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panelimage.Controls.Add(this.button1);
             this.panelimage.Controls.Add(this.pictureBox1);
@@ -59,7 +58,6 @@
             this.panelimage.Controls.Add(this.ptbImage21);
             this.panelimage.Controls.Add(this.ptbImage1);
             this.panelimage.Controls.Add(this.lblContent);
-            this.panelimage.Controls.Add(this.lblNumCmt);
             this.panelimage.Controls.Add(this.lblDate);
             this.panelimage.Controls.Add(this.lblTitle);
             this.panelimage.Controls.Add(this.lblTag);
@@ -89,12 +87,13 @@
             this.pictureBox1.Size = new System.Drawing.Size(71, 57);
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // ptbImage22
             // 
             this.ptbImage22.BackColor = System.Drawing.Color.Transparent;
             this.ptbImage22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ptbImage22.Location = new System.Drawing.Point(358, 201);
+            this.ptbImage22.Location = new System.Drawing.Point(358, 224);
             this.ptbImage22.Name = "ptbImage22";
             this.ptbImage22.Size = new System.Drawing.Size(320, 347);
             this.ptbImage22.TabIndex = 9;
@@ -105,7 +104,7 @@
             // 
             this.ptbImage21.BackColor = System.Drawing.Color.Transparent;
             this.ptbImage21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ptbImage21.Location = new System.Drawing.Point(28, 201);
+            this.ptbImage21.Location = new System.Drawing.Point(28, 224);
             this.ptbImage21.Name = "ptbImage21";
             this.ptbImage21.Size = new System.Drawing.Size(299, 347);
             this.ptbImage21.TabIndex = 8;
@@ -116,7 +115,7 @@
             // 
             this.ptbImage1.BackColor = System.Drawing.Color.White;
             this.ptbImage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ptbImage1.Location = new System.Drawing.Point(28, 201);
+            this.ptbImage1.Location = new System.Drawing.Point(28, 224);
             this.ptbImage1.Name = "ptbImage1";
             this.ptbImage1.Size = new System.Drawing.Size(667, 347);
             this.ptbImage1.TabIndex = 7;
@@ -125,21 +124,12 @@
             // lblContent
             // 
             this.lblContent.AllowDrop = true;
-            this.lblContent.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContent.Location = new System.Drawing.Point(23, 131);
+            this.lblContent.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContent.Location = new System.Drawing.Point(24, 154);
             this.lblContent.Name = "lblContent";
             this.lblContent.Size = new System.Drawing.Size(721, 67);
             this.lblContent.TabIndex = 6;
             this.lblContent.Text = resources.GetString("lblContent.Text");
-            // 
-            // lblNumCmt
-            // 
-            this.lblNumCmt.AutoSize = true;
-            this.lblNumCmt.Location = new System.Drawing.Point(90, 108);
-            this.lblNumCmt.Name = "lblNumCmt";
-            this.lblNumCmt.Size = new System.Drawing.Size(110, 16);
-            this.lblNumCmt.TabIndex = 5;
-            this.lblNumCmt.Text = "number comment";
             // 
             // lblDate
             // 
@@ -155,7 +145,7 @@
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(23, 69);
+            this.lblTitle.Location = new System.Drawing.Point(24, 69);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(49, 27);
             this.lblTitle.TabIndex = 2;
@@ -164,11 +154,11 @@
             // lblTag
             // 
             this.lblTag.AutoSize = true;
-            this.lblTag.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTag.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTag.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lblTag.Location = new System.Drawing.Point(24, 103);
+            this.lblTag.Location = new System.Drawing.Point(24, 109);
             this.lblTag.Name = "lblTag";
-            this.lblTag.Size = new System.Drawing.Size(49, 24);
+            this.lblTag.Size = new System.Drawing.Size(56, 27);
             this.lblTag.TabIndex = 1;
             this.lblTag.Text = "#tag";
             // 
@@ -207,7 +197,6 @@
         private System.Windows.Forms.Label lblTag;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Label lblDate;
-        private System.Windows.Forms.Label lblNumCmt;
         private System.Windows.Forms.Label lblContent;
         private System.Windows.Forms.PictureBox ptbImage1;
         private System.Windows.Forms.PictureBox ptbImage21;
