@@ -56,7 +56,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button8 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.ptbSend = new System.Windows.Forms.PictureBox();
             this.pnlCmt = new System.Windows.Forms.Panel();
@@ -366,7 +365,6 @@
             this.panel4.BackgroundImage = global::Blog.Properties.Resources.dangbai;
             this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel4.Controls.Add(this.pictureBox1);
-            this.panel4.Controls.Add(this.button8);
             this.panel4.Controls.Add(this.button4);
             this.panel4.Location = new System.Drawing.Point(24, 80);
             this.panel4.Name = "panel4";
@@ -383,16 +381,6 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // button8
-            // 
-            this.button8.BackgroundImage = global::Blog.Properties.Resources.pngtree_gallery_icon_for_your_project_png_image_17311001;
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button8.Location = new System.Drawing.Point(591, 3);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(104, 87);
-            this.button8.TabIndex = 12;
-            this.button8.UseVisualStyleBackColor = true;
-            // 
             // button4
             // 
             this.button4.BackgroundImage = global::Blog.Properties.Resources.textnooutline;
@@ -401,7 +389,7 @@
             this.button4.ForeColor = System.Drawing.Color.Black;
             this.button4.Location = new System.Drawing.Point(103, 12);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(469, 61);
+            this.button4.Size = new System.Drawing.Size(568, 61);
             this.button4.TabIndex = 10;
             this.button4.Text = "Post some thing!";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -658,7 +646,6 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button8;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;

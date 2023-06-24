@@ -53,10 +53,10 @@
             // 
             // txbEmail
             // 
-            this.txbEmail.Location = new System.Drawing.Point(592, 301);
+            this.txbEmail.Location = new System.Drawing.Point(592, 332);
             this.txbEmail.Multiline = true;
             this.txbEmail.Name = "txbEmail";
-            this.txbEmail.Size = new System.Drawing.Size(349, 57);
+            this.txbEmail.Size = new System.Drawing.Size(387, 57);
             this.txbEmail.TabIndex = 1;
             // 
             // btnSubmit
@@ -64,7 +64,7 @@
             this.btnSubmit.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnSubmit.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubmit.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnSubmit.Location = new System.Drawing.Point(792, 406);
+            this.btnSubmit.Location = new System.Drawing.Point(830, 451);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(149, 67);
             this.btnSubmit.TabIndex = 2;
@@ -77,7 +77,7 @@
             this.btnLogin.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(592, 406);
+            this.btnLogin.Location = new System.Drawing.Point(592, 451);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(137, 67);
             this.btnLogin.TabIndex = 3;
@@ -124,7 +124,7 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(12, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(530, 680);
+            this.pictureBox1.Size = new System.Drawing.Size(530, 825);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
@@ -133,7 +133,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1033, 676);
+            this.ClientSize = new System.Drawing.Size(1030, 839);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);

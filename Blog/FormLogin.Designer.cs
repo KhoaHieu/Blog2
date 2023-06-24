@@ -75,7 +75,7 @@
             this.txbUN.Location = new System.Drawing.Point(65, 59);
             this.txbUN.Multiline = true;
             this.txbUN.Name = "txbUN";
-            this.txbUN.Size = new System.Drawing.Size(303, 32);
+            this.txbUN.Size = new System.Drawing.Size(385, 32);
             this.txbUN.TabIndex = 2;
             this.txbUN.TextChanged += new System.EventHandler(this.txbUN_TextChanged);
             // 
@@ -88,7 +88,7 @@
             this.txbPW.Multiline = true;
             this.txbPW.Name = "txbPW";
             this.txbPW.PasswordChar = '*';
-            this.txbPW.Size = new System.Drawing.Size(303, 32);
+            this.txbPW.Size = new System.Drawing.Size(387, 32);
             this.txbPW.TabIndex = 3;
             // 
             // btnSubmit
@@ -98,7 +98,7 @@
             this.btnSubmit.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubmit.ForeColor = System.Drawing.Color.White;
             this.btnSubmit.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSubmit.Location = new System.Drawing.Point(63, 167);
+            this.btnSubmit.Location = new System.Drawing.Point(63, 181);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(115, 50);
             this.btnSubmit.TabIndex = 4;
@@ -112,7 +112,7 @@
             this.btnReg.FlatAppearance.BorderSize = 0;
             this.btnReg.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReg.ForeColor = System.Drawing.Color.White;
-            this.btnReg.Location = new System.Drawing.Point(248, 167);
+            this.btnReg.Location = new System.Drawing.Point(332, 181);
             this.btnReg.Name = "btnReg";
             this.btnReg.Size = new System.Drawing.Size(118, 50);
             this.btnReg.TabIndex = 5;
@@ -125,7 +125,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(60, 230);
+            this.label3.Location = new System.Drawing.Point(60, 249);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(131, 16);
             this.label3.TabIndex = 7;
@@ -143,9 +143,9 @@
             this.panellogin.Controls.Add(this.txbUN);
             this.panellogin.Controls.Add(this.label2);
             this.panellogin.Controls.Add(this.label1);
-            this.panellogin.Location = new System.Drawing.Point(318, 263);
+            this.panellogin.Location = new System.Drawing.Point(264, 382);
             this.panellogin.Name = "panellogin";
-            this.panellogin.Size = new System.Drawing.Size(413, 269);
+            this.panellogin.Size = new System.Drawing.Size(521, 290);
             this.panellogin.TabIndex = 8;
             this.panellogin.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -159,21 +159,21 @@
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Location = new System.Drawing.Point(318, 52);
+            this.panel1.Location = new System.Drawing.Point(264, 117);
             this.panel1.Name = "panel1";
             this.panel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.panel1.Size = new System.Drawing.Size(413, 215);
+            this.panel1.Size = new System.Drawing.Size(521, 272);
             this.panel1.TabIndex = 9;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Transparent;
-            this.label7.Location = new System.Drawing.Point(28, 127);
+            this.label7.Location = new System.Drawing.Point(37, 163);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(383, 19);
+            this.label7.Size = new System.Drawing.Size(450, 20);
             this.label7.TabIndex = 3;
             this.label7.Text = "to welcome you to my blog hope you enjoy the fun we bring";
             // 
@@ -181,11 +181,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(28, 94);
+            this.label6.Location = new System.Drawing.Point(37, 118);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(200, 19);
+            this.label6.Size = new System.Drawing.Size(266, 23);
             this.label6.TabIndex = 2;
             this.label6.Text = "Welcome and it is my pleasure ";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -193,11 +193,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Uighur", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Uighur", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(29, 26);
+            this.label5.Location = new System.Drawing.Point(30, 46);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(225, 48);
+            this.label5.Size = new System.Drawing.Size(337, 72);
             this.label5.TabIndex = 1;
             this.label5.Text = "Welcome to Blog";
             // 
@@ -218,7 +218,7 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = global::Blog.Properties.Resources.background11;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1033, 676);
+            this.ClientSize = new System.Drawing.Size(1030, 839);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panellogin);
             this.DoubleBuffered = true;
