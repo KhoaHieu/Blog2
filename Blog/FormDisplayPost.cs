@@ -109,16 +109,16 @@ namespace Blog
 
         private void loadCmt(int idx)
         {
-            List<Class.Cmt> list = new List<Class.Cmt>();
+            List<Class.Cmt> listCmt = new List<Class.Cmt>();
             Console.WriteLine("post index: " + idx);
             bool check = false;
-            while (list.Count < 4 && idxCmt >= 0)
+            while (listCmt.Count < 4 && idxCmt >= 0)
             {
                 Console.WriteLine("cmt index: " + Class.ListCmt.Instance.List[idxCmt].PostId);
 
                 if (Class.ListCmt.Instance.List[idxCmt].PostId == idx)
                 {
-                    list.Add(Class.ListCmt.Instance.List[idxCmt]);
+                    listCmt.Add(Class.ListCmt.Instance.List[idxCmt]);
                     check = true;
                 }
                 idxCmt--;
@@ -169,11 +169,11 @@ namespace Blog
             pnlCmt.Controls.Add(pnl2);
             pnlCmt.Controls.Add(pnl3);
             pnlCmt.Controls.Add(pnl4);
-            Console.WriteLine(list.Count);
+            Console.WriteLine(listCmt.Count);
 
-            for (int j = 0; j < list.Count; j++)
+            for (int j = 0; j < listCmt.Count; j++)
             {
-                string name = list[j].UserName;
+                string name = listCmt[j].UserName;
                 string avt = "";
                 //tìm kiếm trong list user xem có user nào trùng tên với name không
                 foreach (Class.User u in Class.ListUser.Instance.List)
@@ -193,11 +193,11 @@ namespace Blog
                     pnlCmt.Controls[j].Controls[2].BackgroundImage = Bitmap.FromStream(stream);
                 }
                 pnlCmt.Controls[j].Controls[2].BackgroundImageLayout = ImageLayout.Stretch;
-                pnlCmt.Controls[j].Controls[0].Text = list[j].UserName;
+                pnlCmt.Controls[j].Controls[0].Text = listCmt[j].UserName;
 
 
-                pnlCmt.Controls[j].Controls[1].Text = list[j].Content;
-                Console.WriteLine("size: ", list[j].Content);
+                pnlCmt.Controls[j].Controls[1].Text = listCmt[j].Content;
+                Console.WriteLine("size: ", listCmt[j].Content);
             }
         }
 
@@ -302,7 +302,7 @@ namespace Blog
         private void button7_Click(object sender, EventArgs e)
         {
             FormMessenger frm = new FormMessenger();
-            this.Hide(); 
+            this.Hide();
             frm.Show();
         }
 
@@ -310,10 +310,44 @@ namespace Blog
         {
             FormDisplayPost fr = new FormDisplayPost();
             this.Hide();
-           fr.Show();
+            fr.Show();
         }
 
         private void FormDisplayPost_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblContent2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlCmt_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            FormDisplayPost frm = new FormDisplayPost();
+            this.Hide();
+            frm.Show();
+        }
+
+        private void button7_Click_1(object sender, EventArgs e)
+        {
+            FormMessenger frm1 = new FormMessenger();
+            this.Hide();
+            frm1.Show();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblUN3_Click(object sender, EventArgs e)
         {
 
         }

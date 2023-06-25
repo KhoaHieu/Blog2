@@ -38,21 +38,21 @@
             this.button2 = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.ptb2 = new System.Windows.Forms.PictureBox();
             this.chb1 = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ptb2 = new System.Windows.Forms.PictureBox();
             this.ptb1 = new System.Windows.Forms.PictureBox();
-            this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptb2)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptb1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -98,8 +98,8 @@
             // 
             // txbTitle
             // 
-            this.txbTitle.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbTitle.Location = new System.Drawing.Point(98, 141);
+            this.txbTitle.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbTitle.Location = new System.Drawing.Point(110, 141);
             this.txbTitle.Multiline = true;
             this.txbTitle.Name = "txbTitle";
             this.txbTitle.Size = new System.Drawing.Size(771, 38);
@@ -108,7 +108,7 @@
             // txbContent
             // 
             this.txbContent.AllowDrop = true;
-            this.txbContent.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbContent.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbContent.Location = new System.Drawing.Point(110, 196);
             this.txbContent.Multiline = true;
             this.txbContent.Name = "txbContent";
@@ -117,16 +117,16 @@
             // 
             // cboTag
             // 
-            this.cboTag.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboTag.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboTag.FormattingEnabled = true;
             this.cboTag.Location = new System.Drawing.Point(110, 321);
             this.cboTag.Name = "cboTag";
-            this.cboTag.Size = new System.Drawing.Size(759, 27);
+            this.cboTag.Size = new System.Drawing.Size(759, 33);
             this.cboTag.TabIndex = 12;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(16, 56);
+            this.button2.Location = new System.Drawing.Point(12, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(111, 41);
             this.button2.TabIndex = 16;
@@ -150,20 +150,11 @@
             // 
             this.panel1.Controls.Add(this.ptb2);
             this.panel1.Controls.Add(this.button2);
-            this.panel1.Location = new System.Drawing.Point(351, 569);
+            this.panel1.Location = new System.Drawing.Point(12, 370);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(366, 154);
+            this.panel1.Size = new System.Drawing.Size(134, 88);
             this.panel1.TabIndex = 19;
             this.panel1.Visible = false;
-            // 
-            // ptb2
-            // 
-            this.ptb2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ptb2.Location = new System.Drawing.Point(165, 29);
-            this.ptb2.Name = "ptb2";
-            this.ptb2.Size = new System.Drawing.Size(178, 89);
-            this.ptb2.TabIndex = 14;
-            this.ptb2.TabStop = false;
             // 
             // chb1
             // 
@@ -206,6 +197,17 @@
             this.label6.TabIndex = 0;
             this.label6.Text = "Add to your post";
             // 
+            // button5
+            // 
+            this.button5.BackgroundImage = global::Blog.Properties.Resources.logo;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button5.Location = new System.Drawing.Point(964, 60);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(60, 51);
+            this.button5.TabIndex = 26;
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // button1
             // 
             this.button1.BackgroundImage = global::Blog.Properties.Resources.pngtree_gallery_icon_for_your_project_png_image_1731100;
@@ -229,31 +231,30 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(12, 69);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(76, 69);
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
             // 
+            // ptb2
+            // 
+            this.ptb2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ptb2.Location = new System.Drawing.Point(42, 50);
+            this.ptb2.Name = "ptb2";
+            this.ptb2.Size = new System.Drawing.Size(41, 28);
+            this.ptb2.TabIndex = 14;
+            this.ptb2.TabStop = false;
+            // 
             // ptb1
             // 
             this.ptb1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ptb1.Location = new System.Drawing.Point(351, 351);
+            this.ptb1.Location = new System.Drawing.Point(262, 370);
             this.ptb1.Name = "ptb1";
-            this.ptb1.Size = new System.Drawing.Size(366, 212);
+            this.ptb1.Size = new System.Drawing.Size(519, 338);
             this.ptb1.TabIndex = 13;
             this.ptb1.TabStop = false;
-            // 
-            // button5
-            // 
-            this.button5.BackgroundImage = global::Blog.Properties.Resources.logo;
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button5.Location = new System.Drawing.Point(964, 60);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(60, 51);
-            this.button5.TabIndex = 26;
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // FormCreatePost
             // 
@@ -281,12 +282,13 @@
             this.Name = "FormCreatePost";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormCreatePost";
+            this.Load += new System.EventHandler(this.FormCreatePost_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.ptb2)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptb1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

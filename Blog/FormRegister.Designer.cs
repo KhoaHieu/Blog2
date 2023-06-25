@@ -54,7 +54,7 @@
             // 
             // txbUN
             // 
-            this.txbUN.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbUN.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbUN.Location = new System.Drawing.Point(13, 82);
             this.txbUN.Multiline = true;
             this.txbUN.Name = "txbUN";
@@ -63,8 +63,8 @@
             // 
             // txbPW
             // 
-            this.txbPW.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbPW.Location = new System.Drawing.Point(13, 227);
+            this.txbPW.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbPW.Location = new System.Drawing.Point(13, 154);
             this.txbPW.Multiline = true;
             this.txbPW.Name = "txbPW";
             this.txbPW.PasswordChar = '*';
@@ -73,40 +73,40 @@
             // 
             // txbEmail
             // 
-            this.txbEmail.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbEmail.Location = new System.Drawing.Point(13, 154);
+            this.txbEmail.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbEmail.Location = new System.Drawing.Point(13, 298);
             this.txbEmail.Multiline = true;
             this.txbEmail.Name = "txbEmail";
-            this.txbEmail.PasswordChar = '*';
             this.txbEmail.Size = new System.Drawing.Size(325, 44);
             this.txbEmail.TabIndex = 3;
             // 
             // txbCPW
             // 
-            this.txbCPW.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbCPW.Location = new System.Drawing.Point(15, 295);
+            this.txbCPW.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbCPW.Location = new System.Drawing.Point(13, 222);
             this.txbCPW.Multiline = true;
             this.txbCPW.Name = "txbCPW";
+            this.txbCPW.PasswordChar = '*';
             this.txbCPW.Size = new System.Drawing.Size(323, 47);
             this.txbCPW.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(17, 56);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 23);
+            this.label1.Size = new System.Drawing.Size(110, 20);
             this.label1.TabIndex = 7;
             this.label1.Text = "User name";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(17, 345);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 23);
+            this.label3.Size = new System.Drawing.Size(45, 20);
             this.label3.TabIndex = 9;
             this.label3.Text = "Age";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -114,36 +114,36 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(17, 201);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(157, 23);
+            this.label4.Size = new System.Drawing.Size(182, 20);
             this.label4.TabIndex = 10;
             this.label4.Text = "Confirm password";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(17, 128);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 23);
+            this.label5.Size = new System.Drawing.Size(101, 20);
             this.label5.TabIndex = 11;
             this.label5.Text = "Password";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(17, 272);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 23);
+            this.label6.Size = new System.Drawing.Size(62, 20);
             this.label6.TabIndex = 12;
             this.label6.Text = "Email";
             // 
             // btnOpen
             // 
-            this.btnOpen.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOpen.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOpen.Location = new System.Drawing.Point(13, 613);
             this.btnOpen.Name = "btnOpen";
             this.btnOpen.Size = new System.Drawing.Size(159, 45);
@@ -154,16 +154,17 @@
             // 
             // cboAge
             // 
+            this.cboAge.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboAge.FormattingEnabled = true;
             this.cboAge.Location = new System.Drawing.Point(15, 371);
             this.cboAge.Name = "cboAge";
-            this.cboAge.Size = new System.Drawing.Size(99, 24);
+            this.cboAge.Size = new System.Drawing.Size(99, 28);
             this.cboAge.TabIndex = 14;
             // 
             // btnLogin
             // 
             this.btnLogin.BackColor = System.Drawing.Color.SteelBlue;
-            this.btnLogin.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
             this.btnLogin.Location = new System.Drawing.Point(212, 664);
             this.btnLogin.Name = "btnLogin";
@@ -176,7 +177,7 @@
             // btnSubmit
             // 
             this.btnSubmit.BackColor = System.Drawing.Color.SteelBlue;
-            this.btnSubmit.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmit.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubmit.ForeColor = System.Drawing.Color.White;
             this.btnSubmit.Location = new System.Drawing.Point(13, 664);
             this.btnSubmit.Name = "btnSubmit";
@@ -190,6 +191,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.txbCPW);
             this.panel1.Controls.Add(this.btnSubmit);
             this.panel1.Controls.Add(this.btnLogin);
             this.panel1.Controls.Add(this.cboAge);
@@ -200,7 +202,6 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.ptb1);
-            this.panel1.Controls.Add(this.txbCPW);
             this.panel1.Controls.Add(this.txbEmail);
             this.panel1.Controls.Add(this.txbPW);
             this.panel1.Controls.Add(this.txbUN);
@@ -213,7 +214,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Bauhaus 93", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(79, 14);
+            this.label2.Location = new System.Drawing.Point(105, 14);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(159, 42);
             this.label2.TabIndex = 17;
@@ -221,12 +222,12 @@
             // 
             // ptb1
             // 
-            this.ptb1.BackColor = System.Drawing.Color.Gray;
+            this.ptb1.BackColor = System.Drawing.Color.Transparent;
             this.ptb1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ptb1.BackgroundImage")));
             this.ptb1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ptb1.Location = new System.Drawing.Point(15, 401);
+            this.ptb1.Location = new System.Drawing.Point(15, 416);
             this.ptb1.Name = "ptb1";
-            this.ptb1.Size = new System.Drawing.Size(259, 191);
+            this.ptb1.Size = new System.Drawing.Size(353, 191);
             this.ptb1.TabIndex = 6;
             this.ptb1.TabStop = false;
             // 
@@ -237,18 +238,18 @@
             this.panel2.Controls.Add(this.label7);
             this.panel2.Location = new System.Drawing.Point(465, 40);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(459, 741);
+            this.panel2.Size = new System.Drawing.Size(444, 741);
             this.panel2.TabIndex = 18;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Bauhaus 93", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Bauhaus 93", 31.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(3, 327);
+            this.label7.Location = new System.Drawing.Point(25, 315);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(439, 68);
+            this.label7.Size = new System.Drawing.Size(388, 60);
             this.label7.TabIndex = 0;
             this.label7.Text = "Welcome Page";
             // 

@@ -70,7 +70,7 @@
             // txbUN
             // 
             this.txbUN.BackColor = System.Drawing.Color.White;
-            this.txbUN.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbUN.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbUN.ForeColor = System.Drawing.Color.Black;
             this.txbUN.Location = new System.Drawing.Point(65, 59);
             this.txbUN.Multiline = true;
@@ -82,7 +82,7 @@
             // txbPW
             // 
             this.txbPW.BackColor = System.Drawing.Color.White;
-            this.txbPW.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbPW.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbPW.ForeColor = System.Drawing.Color.Black;
             this.txbPW.Location = new System.Drawing.Point(63, 124);
             this.txbPW.Multiline = true;
@@ -96,7 +96,7 @@
             // 
             this.btnSubmit.BackColor = System.Drawing.Color.CornflowerBlue;
             this.btnSubmit.FlatAppearance.BorderSize = 0;
-            this.btnSubmit.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmit.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubmit.ForeColor = System.Drawing.Color.White;
             this.btnSubmit.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSubmit.Location = new System.Drawing.Point(63, 181);
@@ -111,7 +111,7 @@
             // 
             this.btnReg.BackColor = System.Drawing.Color.CornflowerBlue;
             this.btnReg.FlatAppearance.BorderSize = 0;
-            this.btnReg.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReg.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReg.ForeColor = System.Drawing.Color.White;
             this.btnReg.Location = new System.Drawing.Point(332, 181);
             this.btnReg.Name = "btnReg";

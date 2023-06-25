@@ -24,7 +24,7 @@ namespace Blog
         private void InitializeComponents()
         {
             // Đặt hình nền cho form
-            string mypath = @"D:\Workspace\Template\Blog2\Blog\Resources\background11.png";
+            string mypath = @"D:\Backup\Năm 3\C#\Blog\Blog\Resources\background11.png";
             //backgroundImage = Image.FromFile("D:\\Backup\\Năm 3\\C#\\Blog\\Blog\\Resources\\background11.png");
             backgroundImage = Image.FromFile(mypath);
             this.BackgroundImageLayout = ImageLayout.Stretch;
@@ -79,16 +79,7 @@ namespace Blog
             panellogin.BackColor = muffledColor;
             int borderRadius = 50; // Điều chỉnh bán kính bo tròn tại đây
 
-            // Tạo hình dạng bo tròn
-            GraphicsPath roundedPath = new GraphicsPath();
-            roundedPath.AddArc(0, 0, borderRadius, borderRadius, 180, 90);
-            roundedPath.AddArc(btnSubmit.Width - borderRadius, 0, borderRadius, borderRadius, 270, 90);
-            roundedPath.AddArc(btnSubmit.Width - borderRadius, btnSubmit.Height - borderRadius, borderRadius, borderRadius, 0, 90);
-            roundedPath.AddArc(0, btnSubmit.Height - borderRadius, borderRadius, borderRadius, 90, 90);
-            roundedPath.CloseAllFigures();
-
-            // Áp dụng hình dạng bo tròn vào Button
-            btnSubmit.Region = new Region(roundedPath);
+          
         }
 
         protected override void OnPaint(PaintEventArgs e)
@@ -117,7 +108,7 @@ namespace Blog
                 {
                     if (user.Password == pw)
                     {
-                        Class.CurrUser.ins = user;
+                        Class.CurrUser.ins = user; //user hien tai
                         Class.CurrUser.isLogin = true;
                         check = true;
                         break;

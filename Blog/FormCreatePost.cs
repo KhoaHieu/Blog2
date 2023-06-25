@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,6 +19,7 @@ namespace Blog
 {
     public partial class FormCreatePost : Form
     {
+        public static Class.User myAccount { get; set; } = new Class.User();
         public static Cloudinary cl;
 
         OpenFileDialog o1;
@@ -35,6 +37,13 @@ namespace Blog
             cboTag.Items.Add("politics");
             cboTag.Items.Add("Science");
             cboTag.Items.Add("Sport");
+            label3.Text = Class.CurrUser.ins.UserName;
+            var request = WebRequest.Create(Class.CurrUser.ins.Avt);
+            using (var response = request.GetResponse())
+            using (var stream = response.GetResponseStream())
+            {
+                pictureBox1.BackgroundImage = Bitmap.FromStream(stream);
+            }
         }
 
        
@@ -148,6 +157,11 @@ namespace Blog
             FormDisplayPost frm = new FormDisplayPost();
             this.Hide();
             frm.Show();
+        }
+
+        private void FormCreatePost_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

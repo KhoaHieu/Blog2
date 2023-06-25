@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPost));
             this.panelimage = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ptbImage22 = new System.Windows.Forms.PictureBox();
             this.ptbImage21 = new System.Windows.Forms.PictureBox();
@@ -49,10 +48,9 @@
             // 
             // panelimage
             // 
-            this.panelimage.BackColor = System.Drawing.Color.Transparent;
-            //this.panelimage.BackgroundImage = global::Blog.Properties.Resources.cmt5;
+            this.panelimage.BackColor = System.Drawing.Color.White;
+            this.panelimage.BackgroundImage = global::Blog.Properties.Resources.cmt5;
             this.panelimage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelimage.Controls.Add(this.button1);
             this.panelimage.Controls.Add(this.pictureBox1);
             this.panelimage.Controls.Add(this.ptbImage22);
             this.panelimage.Controls.Add(this.ptbImage21);
@@ -68,16 +66,6 @@
             this.panelimage.Size = new System.Drawing.Size(756, 644);
             this.panelimage.TabIndex = 11;
             this.panelimage.Paint += new System.Windows.Forms.PaintEventHandler(this.panelimage_Paint);
-            // 
-            // button1
-            // 
-            this.button1.BackgroundImage = global::Blog.Properties.Resources.png_clipart_computer_icons_x_mark_others_miscellaneous_angle;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(638, 9);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(40, 35);
-            this.button1.TabIndex = 11;
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
@@ -124,41 +112,41 @@
             // lblContent
             // 
             this.lblContent.AllowDrop = true;
-            this.lblContent.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContent.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContent.Location = new System.Drawing.Point(24, 154);
             this.lblContent.Name = "lblContent";
-            this.lblContent.Size = new System.Drawing.Size(721, 67);
+            this.lblContent.Size = new System.Drawing.Size(671, 67);
             this.lblContent.TabIndex = 6;
             this.lblContent.Text = resources.GetString("lblContent.Text");
             // 
             // lblDate
             // 
             this.lblDate.AutoSize = true;
-            this.lblDate.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDate.Location = new System.Drawing.Point(106, 47);
+            this.lblDate.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate.Location = new System.Drawing.Point(131, 48);
             this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(39, 19);
+            this.lblDate.Size = new System.Drawing.Size(45, 18);
             this.lblDate.TabIndex = 3;
             this.lblDate.Text = "date";
             // 
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(24, 69);
+            this.lblTitle.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Location = new System.Drawing.Point(24, 78);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(49, 27);
+            this.lblTitle.Size = new System.Drawing.Size(48, 25);
             this.lblTitle.TabIndex = 2;
             this.lblTitle.Text = "gàg";
             // 
             // lblTag
             // 
             this.lblTag.AutoSize = true;
-            this.lblTag.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTag.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTag.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lblTag.Location = new System.Drawing.Point(24, 109);
+            this.lblTag.Location = new System.Drawing.Point(24, 115);
             this.lblTag.Name = "lblTag";
-            this.lblTag.Size = new System.Drawing.Size(56, 27);
+            this.lblTag.Size = new System.Drawing.Size(60, 25);
             this.lblTag.TabIndex = 1;
             this.lblTag.Text = "#tag";
             // 
@@ -166,7 +154,7 @@
             // 
             this.lblUN.AutoSize = true;
             this.lblUN.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUN.Location = new System.Drawing.Point(105, 9);
+            this.lblUN.Location = new System.Drawing.Point(129, 9);
             this.lblUN.Name = "lblUN";
             this.lblUN.Size = new System.Drawing.Size(112, 27);
             this.lblUN.TabIndex = 0;
@@ -203,6 +191,5 @@
         private System.Windows.Forms.PictureBox ptbImage22;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panelimage;
-        private System.Windows.Forms.Button button1;
     }
 }

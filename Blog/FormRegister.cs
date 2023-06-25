@@ -92,7 +92,7 @@ namespace Blog
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-            if(txbUN.Text == "")
+            if (txbUN.Text == "")
             {
                 MessageBox.Show("Please enter user name", "warning", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -123,7 +123,7 @@ namespace Blog
                 return;
             }
 
-            if(txbPW.Text != txbCPW.Text)
+            if (txbPW.Text != txbCPW.Text)
             {
                 MessageBox.Show("Password not confirmed", "warning", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -133,8 +133,9 @@ namespace Blog
 
             Class.User user = new Class.User(Class.ListUser.Instance.List.Count, txbUN.Text, txbPW.Text, txbEmail.Text, Int32.Parse(cboAge.Text), publicId);
             Class.ListUser.Instance.List.Add(user);
+            WriteData();
             MessageBox.Show("Register success");
-          
+
             FormLogin frm = new FormLogin();
             frm.Show();
             this.Hide();

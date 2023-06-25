@@ -81,7 +81,21 @@ namespace Blog
             }
             else
                 load1Image();
-            var request2 = WebRequest.Create(Class.CurrUser.ins.Avt);
+
+            //timf kieem username cua post
+            string PostUserName = post.UserName;
+            string PostUserAva = "";
+            //kiem tra trong danh sach user co PostUserName thif lay avatar
+            var listUser = Class.ListUser.Instance.List;
+            foreach (var item in listUser)
+            {
+                if (item.UserName == post.UserName)
+                {
+                    PostUserAva = item.Avt;
+                }
+            }
+
+            var request2 = WebRequest.Create(PostUserAva);
             using (var response = request2.GetResponse())
             using (var stream = response.GetResponseStream())
             {
@@ -128,6 +142,11 @@ namespace Blog
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
