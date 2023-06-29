@@ -95,6 +95,11 @@ namespace Blog
         {
 
         }
+
+        private void txbEmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

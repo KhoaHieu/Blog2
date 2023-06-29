@@ -135,9 +135,6 @@ namespace Blog
             var execl1 = new ExcelMapper();
 
             execl1.Save(Application.StartupPath + @"\assets\User.xlsx", Class.ListUser.Instance.List);
-
-
-
         }
         private static void config()
         {

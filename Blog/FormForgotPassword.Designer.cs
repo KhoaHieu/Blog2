@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormForgotPassword));
             this.label1 = new System.Windows.Forms.Label();
             this.txbEmail = new System.Windows.Forms.TextBox();
             this.btnSubmit = new System.Windows.Forms.Button();
@@ -59,6 +60,7 @@
             this.txbEmail.Name = "txbEmail";
             this.txbEmail.Size = new System.Drawing.Size(387, 57);
             this.txbEmail.TabIndex = 1;
+            this.txbEmail.TextChanged += new System.EventHandler(this.txbEmail_TextChanged);
             // 
             // btnSubmit
             // 
@@ -143,6 +145,7 @@
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.txbEmail);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormForgotPassword";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormForgotPassword";

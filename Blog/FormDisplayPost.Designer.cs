@@ -32,15 +32,9 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txbCmt = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.btnLogout = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -75,9 +69,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.pnlPost = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.btnLogout = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel4.SuspendLayout();
@@ -95,6 +91,9 @@
             this.pnl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb001)).BeginInit();
             this.pnlPost.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // label9
@@ -122,72 +121,11 @@
             // txbCmt
             // 
             this.txbCmt.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbCmt.Location = new System.Drawing.Point(761, 316);
+            this.txbCmt.Location = new System.Drawing.Point(740, 316);
             this.txbCmt.Multiline = true;
             this.txbCmt.Name = "txbCmt";
-            this.txbCmt.Size = new System.Drawing.Size(215, 36);
+            this.txbCmt.Size = new System.Drawing.Size(236, 36);
             this.txbCmt.TabIndex = 12;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.BackgroundImage = global::Blog.Properties.Resources.cmt4;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.pictureBox4);
-            this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Controls.Add(this.btnLogout);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Location = new System.Drawing.Point(740, 68);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(281, 168);
-            this.panel1.TabIndex = 7;
-            this.panel1.Visible = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImage = global::Blog.Properties.Resources._131527aae9c17e428fa6d5397c08e6c6;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(4, 102);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(45, 40);
-            this.pictureBox4.TabIndex = 8;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = global::Blog.Properties.Resources.sdw;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(6, 13);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(45, 40);
-            this.pictureBox3.TabIndex = 7;
-            this.pictureBox3.TabStop = false;
-            // 
-            // btnLogout
-            // 
-            this.btnLogout.BackColor = System.Drawing.Color.Transparent;
-            this.btnLogout.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogout.ForeColor = System.Drawing.Color.Black;
-            this.btnLogout.Location = new System.Drawing.Point(56, 96);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(201, 46);
-            this.btnLogout.TabIndex = 3;
-            this.btnLogout.Text = "Logout";
-            this.btnLogout.UseVisualStyleBackColor = false;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(56, 10);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(200, 47);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Manage account";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // panel5
             // 
@@ -196,51 +134,41 @@
             this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel5.Controls.Add(this.label8);
             this.panel5.Controls.Add(this.label7);
-            this.panel5.Controls.Add(this.label6);
             this.panel5.Controls.Add(this.pictureBox5);
             this.panel5.Controls.Add(this.label4);
             this.panel5.Location = new System.Drawing.Point(747, 71);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(271, 165);
+            this.panel5.Size = new System.Drawing.Size(280, 175);
             this.panel5.TabIndex = 17;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(129, 99);
+            this.label8.Location = new System.Drawing.Point(161, 100);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(105, 19);
+            this.label8.Size = new System.Drawing.Size(88, 19);
             this.label8.TabIndex = 23;
-            this.label8.Text = "store.steam.com";
+            this.label8.Text = "Fandom.com";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(128, 78);
+            this.label7.Location = new System.Drawing.Point(164, 72);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(119, 19);
+            this.label7.Size = new System.Drawing.Size(82, 19);
             this.label7.TabIndex = 22;
-            this.label7.Text = "Masons awaits";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(128, 59);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(93, 19);
-            this.label6.TabIndex = 21;
-            this.label6.Text = "The Cult Of";
+            this.label7.Text = "Son Goku";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // pictureBox5
             // 
-            this.pictureBox5.BackgroundImage = global::Blog.Properties.Resources._346898670_23853792362690539_8766916854932643726_n;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(12, 45);
+            this.pictureBox5.ImageLocation = "";
+            this.pictureBox5.Location = new System.Drawing.Point(11, 47);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(110, 101);
+            this.pictureBox5.Size = new System.Drawing.Size(134, 115);
             this.pictureBox5.TabIndex = 20;
             this.pictureBox5.TabStop = false;
             // 
@@ -248,7 +176,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Mistral", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(50, 7);
+            this.label4.Location = new System.Drawing.Point(50, 9);
             this.label4.Name = "label4";
             this.label4.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label4.Size = new System.Drawing.Size(159, 35);
@@ -572,9 +500,9 @@
             this.button2.BackgroundImage = global::Blog.Properties.Resources.Picture81;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(976, 244);
+            this.button2.Location = new System.Drawing.Point(968, 252);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(51, 47);
+            this.button2.Size = new System.Drawing.Size(45, 39);
             this.button2.TabIndex = 2;
             this.button2.Text = ">";
             this.button2.UseVisualStyleBackColor = false;
@@ -586,9 +514,9 @@
             this.button1.BackgroundImage = global::Blog.Properties.Resources.Picture81;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(762, 244);
+            this.button1.Location = new System.Drawing.Point(758, 252);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(54, 47);
+            this.button1.Size = new System.Drawing.Size(46, 39);
             this.button1.TabIndex = 1;
             this.button1.Text = "<";
             this.button1.UseVisualStyleBackColor = false;
@@ -612,6 +540,67 @@
             this.panel2.Size = new System.Drawing.Size(475, 85);
             this.panel2.TabIndex = 15;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackgroundImage = global::Blog.Properties.Resources.cmt4;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.pictureBox4);
+            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.btnLogout);
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Location = new System.Drawing.Point(746, 71);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(281, 175);
+            this.panel1.TabIndex = 7;
+            this.panel1.Visible = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = global::Blog.Properties.Resources._131527aae9c17e428fa6d5397c08e6c6;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(4, 102);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(45, 40);
+            this.pictureBox4.TabIndex = 8;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::Blog.Properties.Resources.sdw;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(5, 26);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(45, 40);
+            this.pictureBox3.TabIndex = 7;
+            this.pictureBox3.TabStop = false;
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.BackColor = System.Drawing.Color.Transparent;
+            this.btnLogout.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.ForeColor = System.Drawing.Color.Black;
+            this.btnLogout.Location = new System.Drawing.Point(56, 96);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(201, 46);
+            this.btnLogout.TabIndex = 3;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Black;
+            this.button3.Location = new System.Drawing.Point(56, 22);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(200, 47);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "Manage account";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // FormDisplayPost
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -630,13 +619,11 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pnlPost);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormDisplayPost";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "   ";
             this.Load += new System.EventHandler(this.FormDisplayPost_Load);
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -656,6 +643,9 @@
             this.pnl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pb001)).EndInit();
             this.pnlPost.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -704,7 +694,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pb003;
         private System.Windows.Forms.PictureBox pb002;
         private System.Windows.Forms.PictureBox pb001;

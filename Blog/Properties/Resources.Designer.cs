@@ -303,6 +303,16 @@ namespace Blog.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ezgif_com_resize {
+            get {
+                object obj = ResourceManager.GetObject("ezgif.com-resize", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap forgots {
             get {
                 object obj = ResourceManager.GetObject("forgots", resourceCulture);
@@ -346,6 +356,16 @@ namespace Blog.Properties {
         internal static System.Drawing.Bitmap logo {
             get {
                 object obj = ResourceManager.GetObject("logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mario {
+            get {
+                object obj = ResourceManager.GetObject("mario", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

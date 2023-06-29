@@ -16,5 +16,12 @@ namespace Blog
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormDisplayPost frm = new FormDisplayPost();
+            this.Hide();
+            frm.Show();
+        }
     }
 }

@@ -225,9 +225,9 @@
             this.ptb1.BackColor = System.Drawing.Color.Transparent;
             this.ptb1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ptb1.BackgroundImage")));
             this.ptb1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ptb1.Location = new System.Drawing.Point(15, 416);
+            this.ptb1.Location = new System.Drawing.Point(69, 416);
             this.ptb1.Name = "ptb1";
-            this.ptb1.Size = new System.Drawing.Size(353, 191);
+            this.ptb1.Size = new System.Drawing.Size(239, 191);
             this.ptb1.TabIndex = 6;
             this.ptb1.TabStop = false;
             // 
@@ -264,6 +264,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormRegister";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormRegister";

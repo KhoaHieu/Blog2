@@ -23,7 +23,6 @@ namespace Blog
         public FormDisplayPost()
         {
             InitializeComponent();
-
             makeOrder();
             loadNext();
             label3.Text = Class.CurrUser.ins.UserName;
@@ -49,6 +48,7 @@ namespace Blog
             Region rg = new Region(gp);
             ptbAvt.Region = rg;
 
+        
         }
 
         private void makeOrder()
@@ -348,6 +348,11 @@ namespace Blog
         }
 
         private void lblUN3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
         {
 
         }

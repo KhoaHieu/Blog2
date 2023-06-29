@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCreatePost));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -38,21 +39,21 @@
             this.button2 = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.ptb2 = new System.Windows.Forms.PictureBox();
             this.chb1 = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.ptb2 = new System.Windows.Forms.PictureBox();
             this.ptb1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb2)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptb2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptb1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -156,6 +157,15 @@
             this.panel1.TabIndex = 19;
             this.panel1.Visible = false;
             // 
+            // ptb2
+            // 
+            this.ptb2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ptb2.Location = new System.Drawing.Point(42, 50);
+            this.ptb2.Name = "ptb2";
+            this.ptb2.Size = new System.Drawing.Size(41, 28);
+            this.ptb2.TabIndex = 14;
+            this.ptb2.TabStop = false;
+            // 
             // chb1
             // 
             this.chb1.AutoSize = true;
@@ -197,17 +207,6 @@
             this.label6.TabIndex = 0;
             this.label6.Text = "Add to your post";
             // 
-            // button5
-            // 
-            this.button5.BackgroundImage = global::Blog.Properties.Resources.logo;
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button5.Location = new System.Drawing.Point(964, 60);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(60, 51);
-            this.button5.TabIndex = 26;
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
             // button1
             // 
             this.button1.BackgroundImage = global::Blog.Properties.Resources.pngtree_gallery_icon_for_your_project_png_image_1731100;
@@ -218,6 +217,17 @@
             this.button1.TabIndex = 15;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackgroundImage = global::Blog.Properties.Resources.logo;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button5.Location = new System.Drawing.Point(964, 60);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(60, 51);
+            this.button5.TabIndex = 26;
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // pictureBox2
             // 
@@ -237,15 +247,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(76, 69);
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
-            // 
-            // ptb2
-            // 
-            this.ptb2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ptb2.Location = new System.Drawing.Point(42, 50);
-            this.ptb2.Name = "ptb2";
-            this.ptb2.Size = new System.Drawing.Size(41, 28);
-            this.ptb2.TabIndex = 14;
-            this.ptb2.TabStop = false;
             // 
             // ptb1
             // 
@@ -279,16 +280,17 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormCreatePost";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormCreatePost";
             this.Load += new System.EventHandler(this.FormCreatePost_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ptb2)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ptb2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptb1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
