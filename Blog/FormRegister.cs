@@ -36,7 +36,7 @@ namespace Blog
         private void InitializeComponents()
         {
             // Đặt hình nền cho form
-            backgroundImage = Image.FromFile("D:\\Backup\\Năm 3\\C#\\Blog\\Blog\\Resources\\reister1.png");
+            backgroundImage = Image.FromFile("D:\\Backup\\Năm 3\\C#\\Doan1\\Blog2\\Blog\\Resources\\reister1.png");
             this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 

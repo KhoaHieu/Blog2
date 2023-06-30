@@ -224,9 +224,9 @@
             this.Controls.Add(this.panellogin);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Login";
             this.Load += new System.EventHandler(this.FormLogin_Load);
             this.panellogin.ResumeLayout(false);
             this.panellogin.PerformLayout();

@@ -65,7 +65,6 @@
             this.pb001 = new System.Windows.Forms.PictureBox();
             this.lblUN1 = new System.Windows.Forms.Label();
             this.lblContent1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pnlPost = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -74,6 +73,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnLogout = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel4.SuspendLayout();
@@ -100,7 +100,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(764, 294);
+            this.label9.Location = new System.Drawing.Point(744, 263);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(119, 16);
             this.label9.TabIndex = 3;
@@ -121,7 +121,7 @@
             // txbCmt
             // 
             this.txbCmt.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbCmt.Location = new System.Drawing.Point(740, 316);
+            this.txbCmt.Location = new System.Drawing.Point(740, 282);
             this.txbCmt.Multiline = true;
             this.txbCmt.Name = "txbCmt";
             this.txbCmt.Size = new System.Drawing.Size(236, 36);
@@ -132,6 +132,7 @@
             this.panel5.BackColor = System.Drawing.Color.White;
             this.panel5.BackgroundImage = global::Blog.Properties.Resources.Picture3;
             this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel5.Controls.Add(this.panel1);
             this.panel5.Controls.Add(this.label8);
             this.panel5.Controls.Add(this.label7);
             this.panel5.Controls.Add(this.pictureBox5);
@@ -165,7 +166,7 @@
             // pictureBox5
             // 
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.ImageLocation = "";
+            this.pictureBox5.ImageLocation = "https://im5.ezgif.com/tmp/ezgif-5-60d12efe8b.gif";
             this.pictureBox5.Location = new System.Drawing.Point(11, 47);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(134, 115);
@@ -208,7 +209,7 @@
             // 
             this.button4.BackgroundImage = global::Blog.Properties.Resources.textnooutline;
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Font = new System.Drawing.Font("Microsoft Uighur", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Verdana", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Black;
             this.button4.Location = new System.Drawing.Point(103, 12);
             this.button4.Name = "button4";
@@ -250,11 +251,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Mistral", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(408, 15);
+            this.label2.Font = new System.Drawing.Font("Verdana", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(375, 11);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label2.Size = new System.Drawing.Size(184, 35);
+            this.label2.Size = new System.Drawing.Size(300, 36);
             this.label2.TabIndex = 17;
             this.label2.Text = "Welcome to Blog";
             // 
@@ -305,7 +306,7 @@
             this.ptbSend.BackColor = System.Drawing.Color.White;
             this.ptbSend.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ptbSend.BackgroundImage")));
             this.ptbSend.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ptbSend.Location = new System.Drawing.Point(982, 316);
+            this.ptbSend.Location = new System.Drawing.Point(982, 282);
             this.ptbSend.Name = "ptbSend";
             this.ptbSend.Size = new System.Drawing.Size(45, 36);
             this.ptbSend.TabIndex = 13;
@@ -330,7 +331,6 @@
             // 
             // pnl4
             // 
-            this.pnl4.BackgroundImage = global::Blog.Properties.Resources.cmtt;
             this.pnl4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnl4.Controls.Add(this.pb004);
             this.pnl4.Controls.Add(this.lblUN4);
@@ -371,7 +371,6 @@
             // 
             // pnl3
             // 
-            this.pnl3.BackgroundImage = global::Blog.Properties.Resources.cmtt;
             this.pnl3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnl3.Controls.Add(this.pb003);
             this.pnl3.Controls.Add(this.lblUN3);
@@ -412,7 +411,6 @@
             // 
             // pnl2
             // 
-            this.pnl2.BackgroundImage = global::Blog.Properties.Resources.cmtt;
             this.pnl2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnl2.Controls.Add(this.pb002);
             this.pnl2.Controls.Add(this.lblUN2);
@@ -453,7 +451,6 @@
             // 
             // pnl1
             // 
-            this.pnl1.BackgroundImage = global::Blog.Properties.Resources.cmtt;
             this.pnl1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnl1.Controls.Add(this.pb001);
             this.pnl1.Controls.Add(this.lblUN1);
@@ -493,30 +490,17 @@
             this.lblContent1.Name = "lblContent1";
             this.lblContent1.Size = new System.Drawing.Size(156, 48);
             this.lblContent1.TabIndex = 1;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.BackgroundImage = global::Blog.Properties.Resources.Picture81;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(968, 252);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(45, 39);
-            this.button2.TabIndex = 2;
-            this.button2.Text = ">";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.lblContent1.Click += new System.EventHandler(this.lblContent1_Click);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.BackgroundImage = global::Blog.Properties.Resources.Picture81;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(758, 252);
+            this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(5, 488);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(46, 39);
+            this.button1.Size = new System.Drawing.Size(32, 31);
             this.button1.TabIndex = 1;
             this.button1.Text = "<";
             this.button1.UseVisualStyleBackColor = false;
@@ -528,14 +512,14 @@
             this.pnlPost.BackgroundImage = global::Blog.Properties.Resources.cmt5;
             this.pnlPost.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlPost.Controls.Add(this.panel2);
-            this.pnlPost.Location = new System.Drawing.Point(24, 184);
+            this.pnlPost.Location = new System.Drawing.Point(43, 184);
             this.pnlPost.Name = "pnlPost";
-            this.pnlPost.Size = new System.Drawing.Size(710, 610);
+            this.pnlPost.Size = new System.Drawing.Size(652, 610);
             this.pnlPost.TabIndex = 0;
             // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(125, 68);
+            this.panel2.Location = new System.Drawing.Point(84, 68);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(475, 85);
             this.panel2.TabIndex = 15;
@@ -549,7 +533,7 @@
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.btnLogout);
             this.panel1.Controls.Add(this.button3);
-            this.panel1.Location = new System.Drawing.Point(746, 71);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(281, 175);
             this.panel1.TabIndex = 7;
@@ -601,25 +585,39 @@
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImage = global::Blog.Properties.Resources.Picture81;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(701, 476);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(33, 31);
+            this.button2.TabIndex = 2;
+            this.button2.Text = ">";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // FormDisplayPost
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1030, 839);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel5);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel4);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.ptbSend);
             this.Controls.Add(this.txbCmt);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pnlCmt);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.pnlPost);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "FormDisplayPost";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "   ";
@@ -655,7 +653,6 @@
 
         private System.Windows.Forms.Panel pnlPost;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnLogout;
         private System.Windows.Forms.PictureBox ptbAvt;
         private System.Windows.Forms.Button button3;
@@ -698,5 +695,6 @@
         private System.Windows.Forms.PictureBox pb002;
         private System.Windows.Forms.PictureBox pb001;
         private System.Windows.Forms.PictureBox pb004;
+        private System.Windows.Forms.Button button2;
     }
 }

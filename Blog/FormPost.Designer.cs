@@ -81,9 +81,9 @@
             // 
             this.ptbImage22.BackColor = System.Drawing.Color.Transparent;
             this.ptbImage22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ptbImage22.Location = new System.Drawing.Point(358, 224);
+            this.ptbImage22.Location = new System.Drawing.Point(350, 224);
             this.ptbImage22.Name = "ptbImage22";
-            this.ptbImage22.Size = new System.Drawing.Size(320, 347);
+            this.ptbImage22.Size = new System.Drawing.Size(244, 347);
             this.ptbImage22.TabIndex = 9;
             this.ptbImage22.TabStop = false;
             this.ptbImage22.Visible = false;
@@ -92,9 +92,9 @@
             // 
             this.ptbImage21.BackColor = System.Drawing.Color.Transparent;
             this.ptbImage21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ptbImage21.Location = new System.Drawing.Point(28, 224);
+            this.ptbImage21.Location = new System.Drawing.Point(52, 224);
             this.ptbImage21.Name = "ptbImage21";
-            this.ptbImage21.Size = new System.Drawing.Size(299, 347);
+            this.ptbImage21.Size = new System.Drawing.Size(259, 347);
             this.ptbImage21.TabIndex = 8;
             this.ptbImage21.TabStop = false;
             this.ptbImage21.Visible = false;
@@ -103,9 +103,9 @@
             // 
             this.ptbImage1.BackColor = System.Drawing.Color.White;
             this.ptbImage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ptbImage1.Location = new System.Drawing.Point(28, 224);
+            this.ptbImage1.Location = new System.Drawing.Point(43, 224);
             this.ptbImage1.Name = "ptbImage1";
-            this.ptbImage1.Size = new System.Drawing.Size(667, 347);
+            this.ptbImage1.Size = new System.Drawing.Size(563, 347);
             this.ptbImage1.TabIndex = 7;
             this.ptbImage1.TabStop = false;
             // 
@@ -115,7 +115,7 @@
             this.lblContent.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContent.Location = new System.Drawing.Point(24, 154);
             this.lblContent.Name = "lblContent";
-            this.lblContent.Size = new System.Drawing.Size(671, 67);
+            this.lblContent.Size = new System.Drawing.Size(591, 67);
             this.lblContent.TabIndex = 6;
             this.lblContent.Text = resources.GetString("lblContent.Text");
             // 
@@ -128,6 +128,7 @@
             this.lblDate.Size = new System.Drawing.Size(45, 18);
             this.lblDate.TabIndex = 3;
             this.lblDate.Text = "date";
+            this.lblDate.Click += new System.EventHandler(this.lblDate_Click);
             // 
             // lblTitle
             // 

@@ -356,5 +356,10 @@ namespace Blog
         {
 
         }
+
+        private void lblContent1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

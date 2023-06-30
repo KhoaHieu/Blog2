@@ -150,5 +150,10 @@ namespace Blog
         {
 
         }
+
+        private void lblDate_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
