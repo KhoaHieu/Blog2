@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPost));
             this.panelimage = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ptbImage22 = new System.Windows.Forms.PictureBox();
@@ -39,6 +38,7 @@
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblTag = new System.Windows.Forms.Label();
             this.lblUN = new System.Windows.Forms.Label();
+            this.lblAddress = new System.Windows.Forms.Label();
             this.panelimage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbImage22)).BeginInit();
@@ -51,6 +51,7 @@
             this.panelimage.BackColor = System.Drawing.Color.White;
             this.panelimage.BackgroundImage = global::Blog.Properties.Resources.cmt5;
             this.panelimage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelimage.Controls.Add(this.lblAddress);
             this.panelimage.Controls.Add(this.pictureBox1);
             this.panelimage.Controls.Add(this.ptbImage22);
             this.panelimage.Controls.Add(this.ptbImage21);
@@ -113,11 +114,11 @@
             // 
             this.lblContent.AllowDrop = true;
             this.lblContent.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContent.Location = new System.Drawing.Point(24, 154);
+            this.lblContent.Location = new System.Drawing.Point(23, 168);
             this.lblContent.Name = "lblContent";
-            this.lblContent.Size = new System.Drawing.Size(591, 67);
+            this.lblContent.Size = new System.Drawing.Size(591, 44);
             this.lblContent.TabIndex = 6;
-            this.lblContent.Text = resources.GetString("lblContent.Text");
+            this.lblContent.Text = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
             // 
             // lblDate
             // 
@@ -134,7 +135,7 @@
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(24, 78);
+            this.lblTitle.Location = new System.Drawing.Point(23, 118);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(48, 25);
             this.lblTitle.TabIndex = 2;
@@ -145,7 +146,7 @@
             this.lblTag.AutoSize = true;
             this.lblTag.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTag.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lblTag.Location = new System.Drawing.Point(24, 115);
+            this.lblTag.Location = new System.Drawing.Point(23, 143);
             this.lblTag.Name = "lblTag";
             this.lblTag.Size = new System.Drawing.Size(60, 25);
             this.lblTag.TabIndex = 1;
@@ -160,6 +161,16 @@
             this.lblUN.Size = new System.Drawing.Size(112, 27);
             this.lblUN.TabIndex = 0;
             this.lblUN.Text = "username";
+            // 
+            // lblAddress
+            // 
+            this.lblAddress.AutoSize = true;
+            this.lblAddress.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAddress.Location = new System.Drawing.Point(23, 80);
+            this.lblAddress.Name = "lblAddress";
+            this.lblAddress.Size = new System.Drawing.Size(73, 25);
+            this.lblAddress.TabIndex = 11;
+            this.lblAddress.Text = "label1";
             // 
             // FormPost
             // 
@@ -192,5 +203,6 @@
         private System.Windows.Forms.PictureBox ptbImage22;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panelimage;
+        private System.Windows.Forms.Label lblAddress;
     }
 }

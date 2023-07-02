@@ -65,7 +65,7 @@ namespace Blog
             index = i;
             InitializeComponent();
             post = Class.ListPost.Instance.List[index];
-
+            lblAddress.Text = post.Address;
             lblTitle.Text = post.Title;
             lblUN.Text = post.UserName;
             lblDate.Text = post.Date;

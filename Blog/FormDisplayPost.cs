@@ -47,10 +47,24 @@ namespace Blog
             gp.AddEllipse(0, 0, ptbAvt.Width - 1, ptbAvt.Height - 3);
             Region rg = new Region(gp);
             ptbAvt.Region = rg;
+            CountComments();
 
-        
         }
+        private void CountComments()
+        {
+            int commentCount = 0;
+            int postId = order[index];
 
+            foreach (Class.Cmt cmt in Class.ListCmt.Instance.List)
+            {
+                if (cmt.PostId == postId)
+                {
+                    commentCount++;
+                }
+            }
+
+            lblCommentCount.Text = commentCount.ToString();
+        }
         private void makeOrder()
         {
             List<bool> isShow = new List<bool>();
@@ -125,6 +139,7 @@ namespace Blog
             }
             if (!check)
             {
+                
                 lblUN1.Text = "";
                 lblUN2.Text = "";
                 lblUN3.Text = "";
@@ -133,6 +148,10 @@ namespace Blog
                 lblContent2.Text = "";
                 lblContent3.Text = "";
                 lblContent4.Text = "";
+                lblDate1.Text = "";
+                lblDate2.Text = "";
+                lblDate3.Text = "";
+                lblDate4.Text = "";
                 pb001.BackgroundImage = null;
                 pb002.BackgroundImage = null;
                 pb003.BackgroundImage = null;
@@ -151,24 +170,30 @@ namespace Blog
             pnl1.Controls.Add(lblUN1);
             pnl1.Controls.Add(lblContent1);
             pnl1.Controls.Add(pb001);
+            pnl1.Controls.Add(lblDate1);
 
 
             pnl2.Controls.Add(lblUN2);
             pnl2.Controls.Add(lblContent2);
             pnl2.Controls.Add(pb002);
+            pnl2.Controls.Add(lblDate2);
 
             pnl3.Controls.Add(lblUN3);
             pnl3.Controls.Add(lblContent3);
             pnl3.Controls.Add(pb003);
+            pnl3.Controls.Add(lblDate3);
 
             pnl4.Controls.Add(lblUN4);
             pnl4.Controls.Add(lblContent4);
             pnl4.Controls.Add(pb004);
+            pnl4.Controls.Add(lblDate4);
 
             pnlCmt.Controls.Add(pnl1);
             pnlCmt.Controls.Add(pnl2);
             pnlCmt.Controls.Add(pnl3);
             pnlCmt.Controls.Add(pnl4);
+
+            
             Console.WriteLine(listCmt.Count);
 
             for (int j = 0; j < listCmt.Count; j++)
@@ -197,7 +222,9 @@ namespace Blog
 
 
                 pnlCmt.Controls[j].Controls[1].Text = listCmt[j].Content;
+                pnlCmt.Controls[j].Controls[3].Text = listCmt[j].Date;
                 Console.WriteLine("size: ", listCmt[j].Content);
+                CountComments();
             }
         }
 
@@ -242,7 +269,8 @@ namespace Blog
 
         private void ptbSend_Click(object sender, EventArgs e)
         {
-            Class.Cmt cmt = new Class.Cmt(order[index], Class.CurrUser.ins.UserName, txbCmt.Text);
+            String date = DateTime.Now.ToString();
+            Class.Cmt cmt = new Class.Cmt(order[index], Class.CurrUser.ins.UserName, txbCmt.Text,date);
             Class.ListCmt.Instance.List.Add(cmt);
 
             idxCmt = Class.ListCmt.Instance.List.Count - 1;
@@ -358,6 +386,11 @@ namespace Blog
         }
 
         private void lblContent1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblDate1_Click(object sender, EventArgs e)
         {
 
         }

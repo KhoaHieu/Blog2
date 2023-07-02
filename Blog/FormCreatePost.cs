@@ -125,7 +125,7 @@ namespace Blog
             String date = DateTime.Now.ToString();
 
             Class.Post post = new Class.Post(Class.ListPost.Instance.List.Count, cboTag.Text,
-                txbTitle.Text, txbContent.Text, date, Class.CurrUser.ins.Id, Class.CurrUser.ins.UserName, publicId1, publicId2, chb1.Checked);
+                txbTitle.Text, txbContent.Text, date, txbAddress.Text, Class.CurrUser.ins.Id, Class.CurrUser.ins.UserName, publicId1, publicId2, chb1.Checked);
            
             Class.ListPost.Instance.List.Add(post);
             MessageBox.Show("Create post success");
@@ -160,6 +160,11 @@ namespace Blog
         }
 
         private void FormCreatePost_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txbTitle_TextChanged(object sender, EventArgs e)
         {
 
         }

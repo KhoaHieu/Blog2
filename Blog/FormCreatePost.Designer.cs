@@ -49,6 +49,8 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ptb1 = new System.Windows.Forms.PictureBox();
+            this.txbAddress = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptb2)).BeginInit();
             this.panel2.SuspendLayout();
@@ -81,7 +83,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(14, 228);
+            this.label5.Location = new System.Drawing.Point(17, 266);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(78, 24);
             this.label5.TabIndex = 4;
@@ -105,15 +107,16 @@
             this.txbTitle.Name = "txbTitle";
             this.txbTitle.Size = new System.Drawing.Size(771, 38);
             this.txbTitle.TabIndex = 10;
+            this.txbTitle.TextChanged += new System.EventHandler(this.txbTitle_TextChanged);
             // 
             // txbContent
             // 
             this.txbContent.AllowDrop = true;
             this.txbContent.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbContent.Location = new System.Drawing.Point(110, 196);
+            this.txbContent.Location = new System.Drawing.Point(110, 236);
             this.txbContent.Multiline = true;
             this.txbContent.Name = "txbContent";
-            this.txbContent.Size = new System.Drawing.Size(759, 105);
+            this.txbContent.Size = new System.Drawing.Size(759, 68);
             this.txbContent.TabIndex = 11;
             // 
             // cboTag
@@ -257,6 +260,24 @@
             this.ptb1.TabIndex = 13;
             this.ptb1.TabStop = false;
             // 
+            // txbAddress
+            // 
+            this.txbAddress.Location = new System.Drawing.Point(110, 195);
+            this.txbAddress.Multiline = true;
+            this.txbAddress.Name = "txbAddress";
+            this.txbAddress.Size = new System.Drawing.Size(771, 35);
+            this.txbAddress.TabIndex = 27;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(1, 205);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(103, 25);
+            this.label4.TabIndex = 28;
+            this.label4.Text = "Address";
+            // 
             // FormCreatePost
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -264,6 +285,8 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1030, 839);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txbAddress);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pictureBox2);
@@ -319,5 +342,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox txbAddress;
+        private System.Windows.Forms.Label label4;
     }
 }

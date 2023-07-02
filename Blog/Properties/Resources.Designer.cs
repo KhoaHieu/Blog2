@@ -233,6 +233,16 @@ namespace Blog.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap comment_logo_icon_sign_symbol_design_free_vector {
+            get {
+                object obj = ResourceManager.GetObject("comment-logo-icon-sign-symbol-design-free-vector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dangbai {
             get {
                 object obj = ResourceManager.GetObject("dangbai", resourceCulture);
@@ -296,6 +306,16 @@ namespace Blog.Properties {
         internal static System.Drawing.Bitmap download__1_1 {
             get {
                 object obj = ResourceManager.GetObject("download (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download__2_ {
+            get {
+                object obj = ResourceManager.GetObject("download (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

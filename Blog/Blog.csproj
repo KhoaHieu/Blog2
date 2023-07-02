@@ -405,6 +405,12 @@
   <ItemGroup>
     <None Include="Resources\ezgif.com-resize.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comment-logo-icon-sign-symbol-design-free-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\System.Text.Json.6.0.4\build\System.Text.Json.targets" Condition="Exists('..\packages\System.Text.Json.6.0.4\build\System.Text.Json.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

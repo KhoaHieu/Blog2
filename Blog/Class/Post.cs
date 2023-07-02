@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NPOI.SS.Formula.Functions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,8 +19,9 @@ namespace Blog.Class
         private string image1;
         private string image2;
         private bool is2Image;
+        private string address;
 
-        public Post(int id, string tag, string title, string content, string date, int userId, string userName, 
+        public Post(int id, string tag, string title, string content, string date,string address, int userId, string userName, 
             string image1, string image2, bool is2Image)
         {
             this.id = id;
@@ -27,6 +29,7 @@ namespace Blog.Class
             this.title = title;
             this.content = content;
             this.date = date;
+            this.address = address ;
             this.userId = userId;
             this.userName = userName;
             this.image1 = image1;
@@ -45,6 +48,7 @@ namespace Blog.Class
         public string Title { get => title; set => title = value; }
         public string Content { get => content; set => content = value; }
         public string Date { get => date; set => date = value; }
+        public string Address { get => address; set => address = value; }
         public int UserId { get => userId; set => userId = value; }
         public string UserName { get => userName; set => userName = value; }
         public string Image1 { get => image1; set => image1 = value; }

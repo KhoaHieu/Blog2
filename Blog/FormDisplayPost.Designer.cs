@@ -32,14 +32,23 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txbCmt = new System.Windows.Forms.TextBox();
+            this.lblCommentCount = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.btnLogout = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -50,31 +59,32 @@
             this.ptbSend = new System.Windows.Forms.PictureBox();
             this.pnlCmt = new System.Windows.Forms.Panel();
             this.pnl4 = new System.Windows.Forms.Panel();
+            this.lblDate4 = new System.Windows.Forms.Label();
             this.pb004 = new System.Windows.Forms.PictureBox();
             this.lblUN4 = new System.Windows.Forms.Label();
             this.lblContent4 = new System.Windows.Forms.Label();
             this.pnl3 = new System.Windows.Forms.Panel();
+            this.lblDate3 = new System.Windows.Forms.Label();
             this.pb003 = new System.Windows.Forms.PictureBox();
             this.lblUN3 = new System.Windows.Forms.Label();
             this.lblContent3 = new System.Windows.Forms.Label();
             this.pnl2 = new System.Windows.Forms.Panel();
+            this.lblDate2 = new System.Windows.Forms.Label();
             this.pb002 = new System.Windows.Forms.PictureBox();
             this.lblUN2 = new System.Windows.Forms.Label();
             this.lblContent2 = new System.Windows.Forms.Label();
             this.pnl1 = new System.Windows.Forms.Panel();
+            this.lblDate1 = new System.Windows.Forms.Label();
             this.pb001 = new System.Windows.Forms.PictureBox();
             this.lblUN1 = new System.Windows.Forms.Label();
             this.lblContent1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.pnlPost = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.btnLogout = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel5.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -91,16 +101,13 @@
             this.pnl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb001)).BeginInit();
             this.pnlPost.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(744, 263);
+            this.label9.Location = new System.Drawing.Point(744, 252);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(119, 16);
             this.label9.TabIndex = 3;
@@ -111,7 +118,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(756, 803);
+            this.label1.Location = new System.Drawing.Point(735, 803);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(146, 27);
             this.label1.TabIndex = 3;
@@ -121,11 +128,31 @@
             // txbCmt
             // 
             this.txbCmt.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbCmt.Location = new System.Drawing.Point(740, 282);
+            this.txbCmt.Location = new System.Drawing.Point(740, 271);
             this.txbCmt.Multiline = true;
             this.txbCmt.Name = "txbCmt";
             this.txbCmt.Size = new System.Drawing.Size(236, 36);
             this.txbCmt.TabIndex = 12;
+            // 
+            // lblCommentCount
+            // 
+            this.lblCommentCount.AutoSize = true;
+            this.lblCommentCount.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCommentCount.Location = new System.Drawing.Point(948, 807);
+            this.lblCommentCount.Name = "lblCommentCount";
+            this.lblCommentCount.Size = new System.Drawing.Size(55, 20);
+            this.lblCommentCount.TabIndex = 18;
+            this.lblCommentCount.Text = "label";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::Blog.Properties.Resources.download__2_;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(898, 800);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(38, 30);
+            this.pictureBox2.TabIndex = 19;
+            this.pictureBox2.TabStop = false;
             // 
             // panel5
             // 
@@ -141,6 +168,67 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(280, 175);
             this.panel5.TabIndex = 17;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackgroundImage = global::Blog.Properties.Resources.cmt4;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.pictureBox4);
+            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.btnLogout);
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(281, 175);
+            this.panel1.TabIndex = 7;
+            this.panel1.Visible = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = global::Blog.Properties.Resources._131527aae9c17e428fa6d5397c08e6c6;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(4, 102);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(45, 40);
+            this.pictureBox4.TabIndex = 8;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::Blog.Properties.Resources.sdw;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(5, 26);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(45, 40);
+            this.pictureBox3.TabIndex = 7;
+            this.pictureBox3.TabStop = false;
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.BackColor = System.Drawing.Color.Transparent;
+            this.btnLogout.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.ForeColor = System.Drawing.Color.Black;
+            this.btnLogout.Location = new System.Drawing.Point(56, 96);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(201, 46);
+            this.btnLogout.TabIndex = 3;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Black;
+            this.button3.Location = new System.Drawing.Point(56, 22);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(200, 47);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "Manage account";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label8
             // 
@@ -184,6 +272,20 @@
             this.label4.TabIndex = 19;
             this.label4.Text = "Advertisement";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImage = global::Blog.Properties.Resources.Picture81;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(5, 488);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(32, 31);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "<";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // panel4
             // 
             this.panel4.BackgroundImage = global::Blog.Properties.Resources.dangbai;
@@ -219,6 +321,20 @@
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImage = global::Blog.Properties.Resources.Picture81;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(701, 476);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(33, 31);
+            this.button2.TabIndex = 2;
+            this.button2.Text = ">";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel3
             // 
@@ -306,7 +422,7 @@
             this.ptbSend.BackColor = System.Drawing.Color.White;
             this.ptbSend.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ptbSend.BackgroundImage")));
             this.ptbSend.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ptbSend.Location = new System.Drawing.Point(982, 282);
+            this.ptbSend.Location = new System.Drawing.Point(982, 271);
             this.ptbSend.Name = "ptbSend";
             this.ptbSend.Size = new System.Drawing.Size(45, 36);
             this.ptbSend.TabIndex = 13;
@@ -315,6 +431,7 @@
             // 
             // pnlCmt
             // 
+            this.pnlCmt.AutoScroll = true;
             this.pnlCmt.BackColor = System.Drawing.Color.Transparent;
             this.pnlCmt.BackgroundImage = global::Blog.Properties.Resources.cmt1;
             this.pnlCmt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -323,23 +440,34 @@
             this.pnlCmt.Controls.Add(this.pnl2);
             this.pnlCmt.Controls.Add(this.pnl1);
             this.pnlCmt.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnlCmt.Location = new System.Drawing.Point(740, 358);
+            this.pnlCmt.Location = new System.Drawing.Point(740, 313);
             this.pnlCmt.Name = "pnlCmt";
-            this.pnlCmt.Size = new System.Drawing.Size(281, 436);
+            this.pnlCmt.Size = new System.Drawing.Size(281, 481);
             this.pnlCmt.TabIndex = 11;
             this.pnlCmt.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlCmt_Paint);
             // 
             // pnl4
             // 
             this.pnl4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnl4.Controls.Add(this.lblDate4);
             this.pnl4.Controls.Add(this.pb004);
             this.pnl4.Controls.Add(this.lblUN4);
             this.pnl4.Controls.Add(this.lblContent4);
             this.pnl4.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl4.Location = new System.Drawing.Point(21, 321);
+            this.pnl4.Location = new System.Drawing.Point(18, 361);
             this.pnl4.Name = "pnl4";
-            this.pnl4.Size = new System.Drawing.Size(235, 100);
+            this.pnl4.Size = new System.Drawing.Size(235, 117);
             this.pnl4.TabIndex = 3;
+            // 
+            // lblDate4
+            // 
+            this.lblDate4.AllowDrop = true;
+            this.lblDate4.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate4.Location = new System.Drawing.Point(7, 80);
+            this.lblDate4.Name = "lblDate4";
+            this.lblDate4.Size = new System.Drawing.Size(216, 27);
+            this.lblDate4.TabIndex = 7;
+            this.lblDate4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pb004
             // 
@@ -366,20 +494,31 @@
             this.lblContent4.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContent4.Location = new System.Drawing.Point(65, 40);
             this.lblContent4.Name = "lblContent4";
-            this.lblContent4.Size = new System.Drawing.Size(156, 48);
+            this.lblContent4.Size = new System.Drawing.Size(154, 30);
             this.lblContent4.TabIndex = 1;
             // 
             // pnl3
             // 
             this.pnl3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnl3.Controls.Add(this.lblDate3);
             this.pnl3.Controls.Add(this.pb003);
             this.pnl3.Controls.Add(this.lblUN3);
             this.pnl3.Controls.Add(this.lblContent3);
             this.pnl3.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl3.Location = new System.Drawing.Point(21, 215);
+            this.pnl3.Location = new System.Drawing.Point(18, 241);
             this.pnl3.Name = "pnl3";
-            this.pnl3.Size = new System.Drawing.Size(232, 100);
+            this.pnl3.Size = new System.Drawing.Size(232, 114);
             this.pnl3.TabIndex = 3;
+            // 
+            // lblDate3
+            // 
+            this.lblDate3.AllowDrop = true;
+            this.lblDate3.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate3.Location = new System.Drawing.Point(7, 73);
+            this.lblDate3.Name = "lblDate3";
+            this.lblDate3.Size = new System.Drawing.Size(216, 27);
+            this.lblDate3.TabIndex = 6;
+            this.lblDate3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pb003
             // 
@@ -406,20 +545,31 @@
             this.lblContent3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContent3.Location = new System.Drawing.Point(65, 43);
             this.lblContent3.Name = "lblContent3";
-            this.lblContent3.Size = new System.Drawing.Size(156, 48);
+            this.lblContent3.Size = new System.Drawing.Size(154, 30);
             this.lblContent3.TabIndex = 1;
             // 
             // pnl2
             // 
             this.pnl2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnl2.Controls.Add(this.lblDate2);
             this.pnl2.Controls.Add(this.pb002);
             this.pnl2.Controls.Add(this.lblUN2);
             this.pnl2.Controls.Add(this.lblContent2);
             this.pnl2.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnl2.Location = new System.Drawing.Point(21, 109);
+            this.pnl2.Location = new System.Drawing.Point(18, 120);
             this.pnl2.Name = "pnl2";
-            this.pnl2.Size = new System.Drawing.Size(232, 100);
+            this.pnl2.Size = new System.Drawing.Size(232, 115);
             this.pnl2.TabIndex = 3;
+            // 
+            // lblDate2
+            // 
+            this.lblDate2.AllowDrop = true;
+            this.lblDate2.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate2.Location = new System.Drawing.Point(2, 78);
+            this.lblDate2.Name = "lblDate2";
+            this.lblDate2.Size = new System.Drawing.Size(216, 27);
+            this.lblDate2.TabIndex = 5;
+            this.lblDate2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // pb002
             // 
@@ -445,22 +595,34 @@
             this.lblContent2.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContent2.Location = new System.Drawing.Point(65, 39);
             this.lblContent2.Name = "lblContent2";
-            this.lblContent2.Size = new System.Drawing.Size(156, 48);
+            this.lblContent2.Size = new System.Drawing.Size(154, 30);
             this.lblContent2.TabIndex = 1;
             this.lblContent2.Click += new System.EventHandler(this.lblContent2_Click);
             // 
             // pnl1
             // 
             this.pnl1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnl1.Controls.Add(this.lblDate1);
             this.pnl1.Controls.Add(this.pb001);
             this.pnl1.Controls.Add(this.lblUN1);
             this.pnl1.Controls.Add(this.lblContent1);
             this.pnl1.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnl1.Location = new System.Drawing.Point(21, 3);
             this.pnl1.Name = "pnl1";
-            this.pnl1.Size = new System.Drawing.Size(232, 100);
+            this.pnl1.Size = new System.Drawing.Size(229, 111);
             this.pnl1.TabIndex = 0;
             this.pnl1.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl1_Paint);
+            // 
+            // lblDate1
+            // 
+            this.lblDate1.AllowDrop = true;
+            this.lblDate1.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate1.Location = new System.Drawing.Point(4, 73);
+            this.lblDate1.Name = "lblDate1";
+            this.lblDate1.Size = new System.Drawing.Size(216, 27);
+            this.lblDate1.TabIndex = 4;
+            this.lblDate1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblDate1.Click += new System.EventHandler(this.lblDate1_Click);
             // 
             // pb001
             // 
@@ -478,7 +640,7 @@
             this.lblUN1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblUN1.Location = new System.Drawing.Point(65, 4);
             this.lblUN1.Name = "lblUN1";
-            this.lblUN1.Size = new System.Drawing.Size(155, 27);
+            this.lblUN1.Size = new System.Drawing.Size(155, 28);
             this.lblUN1.TabIndex = 2;
             this.lblUN1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -486,25 +648,11 @@
             // 
             this.lblContent1.AllowDrop = true;
             this.lblContent1.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContent1.Location = new System.Drawing.Point(65, 43);
+            this.lblContent1.Location = new System.Drawing.Point(66, 43);
             this.lblContent1.Name = "lblContent1";
-            this.lblContent1.Size = new System.Drawing.Size(156, 48);
+            this.lblContent1.Size = new System.Drawing.Size(154, 30);
             this.lblContent1.TabIndex = 1;
             this.lblContent1.Click += new System.EventHandler(this.lblContent1_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = global::Blog.Properties.Resources.Picture81;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(5, 488);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(32, 31);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "<";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pnlPost
             // 
@@ -524,87 +672,14 @@
             this.panel2.Size = new System.Drawing.Size(475, 85);
             this.panel2.TabIndex = 15;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.BackgroundImage = global::Blog.Properties.Resources.cmt4;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.pictureBox4);
-            this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Controls.Add(this.btnLogout);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(281, 175);
-            this.panel1.TabIndex = 7;
-            this.panel1.Visible = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImage = global::Blog.Properties.Resources._131527aae9c17e428fa6d5397c08e6c6;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(4, 102);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(45, 40);
-            this.pictureBox4.TabIndex = 8;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = global::Blog.Properties.Resources.sdw;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(5, 26);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(45, 40);
-            this.pictureBox3.TabIndex = 7;
-            this.pictureBox3.TabStop = false;
-            // 
-            // btnLogout
-            // 
-            this.btnLogout.BackColor = System.Drawing.Color.Transparent;
-            this.btnLogout.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogout.ForeColor = System.Drawing.Color.Black;
-            this.btnLogout.Location = new System.Drawing.Point(56, 96);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(201, 46);
-            this.btnLogout.TabIndex = 3;
-            this.btnLogout.Text = "Logout";
-            this.btnLogout.UseVisualStyleBackColor = false;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(56, 22);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(200, 47);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Manage account";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.BackgroundImage = global::Blog.Properties.Resources.Picture81;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(701, 476);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(33, 31);
-            this.button2.TabIndex = 2;
-            this.button2.Text = ">";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // FormDisplayPost
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1030, 839);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.lblCommentCount);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel4);
@@ -622,8 +697,12 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "   ";
             this.Load += new System.EventHandler(this.FormDisplayPost_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -641,9 +720,6 @@
             this.pnl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pb001)).EndInit();
             this.pnlPost.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -696,5 +772,11 @@
         private System.Windows.Forms.PictureBox pb001;
         private System.Windows.Forms.PictureBox pb004;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label lblDate1;
+        private System.Windows.Forms.Label lblDate4;
+        private System.Windows.Forms.Label lblDate3;
+        private System.Windows.Forms.Label lblDate2;
+        private System.Windows.Forms.Label lblCommentCount;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
