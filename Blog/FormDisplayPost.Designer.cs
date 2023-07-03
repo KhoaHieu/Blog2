@@ -33,15 +33,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txbCmt = new System.Windows.Forms.TextBox();
             this.lblCommentCount = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnLogout = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -52,6 +52,7 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.ptbAvt = new System.Windows.Forms.PictureBox();
@@ -79,15 +80,12 @@
             this.lblContent1 = new System.Windows.Forms.Label();
             this.pnlPost = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pnlemoji = new System.Windows.Forms.Panel();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel5.SuspendLayout();
+            this.btnEmoji = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -104,7 +102,6 @@
             this.pnl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb001)).BeginInit();
             this.pnlPost.SuspendLayout();
-            this.pnlemoji.SuspendLayout();
             this.SuspendLayout();
             // 
             // label9
@@ -147,60 +144,6 @@
             this.lblCommentCount.Size = new System.Drawing.Size(55, 20);
             this.lblCommentCount.TabIndex = 18;
             this.lblCommentCount.Text = "label";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::Blog.Properties.Resources.download__2_;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(898, 800);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(38, 30);
-            this.pictureBox2.TabIndex = 19;
-            this.pictureBox2.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = global::Blog.Properties.Resources.Picture81;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(36, 530);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(36, 31);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "<";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.BackgroundImage = global::Blog.Properties.Resources.Picture81;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(668, 530);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(32, 31);
-            this.button2.TabIndex = 2;
-            this.button2.Text = ">";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.White;
-            this.panel5.BackgroundImage = global::Blog.Properties.Resources.Picture3;
-            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel5.Controls.Add(this.label8);
-            this.panel5.Controls.Add(this.label7);
-            this.panel5.Controls.Add(this.pictureBox5);
-            this.panel5.Controls.Add(this.label4);
-            this.panel5.Location = new System.Drawing.Point(747, 71);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(280, 175);
-            this.panel5.TabIndex = 17;
             // 
             // panel1
             // 
@@ -262,6 +205,60 @@
             this.button3.Text = "Manage account";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::Blog.Properties.Resources.download__2_;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(898, 800);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(38, 30);
+            this.pictureBox2.TabIndex = 19;
+            this.pictureBox2.TabStop = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImage = global::Blog.Properties.Resources.Picture81;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(668, 530);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(32, 31);
+            this.button2.TabIndex = 2;
+            this.button2.Text = ">";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImage = global::Blog.Properties.Resources.Picture81;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(36, 530);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(36, 31);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "<";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.White;
+            this.panel5.BackgroundImage = global::Blog.Properties.Resources.Picture3;
+            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel5.Controls.Add(this.label8);
+            this.panel5.Controls.Add(this.label7);
+            this.panel5.Controls.Add(this.pictureBox5);
+            this.panel5.Controls.Add(this.label4);
+            this.panel5.Location = new System.Drawing.Point(747, 71);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(280, 175);
+            this.panel5.TabIndex = 17;
             // 
             // label8
             // 
@@ -380,6 +377,17 @@
             this.label2.TabIndex = 17;
             this.label2.Text = "Welcome to Blog";
             // 
+            // button7
+            // 
+            this.button7.BackgroundImage = global::Blog.Properties.Resources._98dceadf5bef7d0b31a49b5e3254695a;
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button7.Location = new System.Drawing.Point(251, 9);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(57, 49);
+            this.button7.TabIndex = 16;
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click_1);
+            // 
             // button6
             // 
             this.button6.BackgroundImage = global::Blog.Properties.Resources.istockphoto_1081510108_612x612;
@@ -429,7 +437,6 @@
             this.pnlCmt.BackColor = System.Drawing.Color.Transparent;
             this.pnlCmt.BackgroundImage = global::Blog.Properties.Resources.cmt1;
             this.pnlCmt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlCmt.Controls.Add(this.pnlemoji);
             this.pnlCmt.Controls.Add(this.pnl4);
             this.pnlCmt.Controls.Add(this.pnl3);
             this.pnlCmt.Controls.Add(this.pnl2);
@@ -668,46 +675,16 @@
             this.panel2.Size = new System.Drawing.Size(475, 85);
             this.panel2.TabIndex = 15;
             // 
-            // pnlemoji
+            // btnEmoji
             // 
-            this.pnlemoji.Controls.Add(this.button8);
-            this.pnlemoji.Location = new System.Drawing.Point(18, 3);
-            this.pnlemoji.Name = "pnlemoji";
-            this.pnlemoji.Size = new System.Drawing.Size(235, 149);
-            this.pnlemoji.TabIndex = 16;
-            this.pnlemoji.Visible = false;
-            // 
-            // button8
-            // 
-            this.button8.BackgroundImage = global::Blog.Properties.Resources.background112;
-            this.button8.Location = new System.Drawing.Point(3, 6);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(40, 40);
-            this.button8.TabIndex = 0;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.BackgroundImage = global::Blog.Properties.Resources._98dceadf5bef7d0b31a49b5e3254695a;
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button7.Location = new System.Drawing.Point(251, 9);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(57, 49);
-            this.button7.TabIndex = 16;
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click_1);
-            // 
-            // button9
-            // 
-            this.button9.BackgroundImage = global::Blog.Properties.Resources._98dceadf5bef7d0b31a49b5e3254695a;
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button9.Location = new System.Drawing.Point(941, 267);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(37, 36);
-            this.button9.TabIndex = 19;
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.btnEmoji.BackgroundImage = global::Blog.Properties.Resources._98dceadf5bef7d0b31a49b5e3254695a;
+            this.btnEmoji.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnEmoji.Location = new System.Drawing.Point(942, 271);
+            this.btnEmoji.Name = "btnEmoji";
+            this.btnEmoji.Size = new System.Drawing.Size(39, 36);
+            this.btnEmoji.TabIndex = 19;
+            this.btnEmoji.UseVisualStyleBackColor = true;
+            this.btnEmoji.Click += new System.EventHandler(this.btnEmoji_Click);
             // 
             // FormDisplayPost
             // 
@@ -715,7 +692,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1030, 839);
-            this.Controls.Add(this.button9);
+            this.Controls.Add(this.btnEmoji);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button2);
@@ -736,12 +713,12 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "   ";
             this.Load += new System.EventHandler(this.FormDisplayPost_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -759,7 +736,6 @@
             this.pnl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pb001)).EndInit();
             this.pnlPost.ResumeLayout(false);
-            this.pnlemoji.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -818,8 +794,6 @@
         private System.Windows.Forms.Label lblCommentCount;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Panel pnlemoji;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button btnEmoji;
     }
 }

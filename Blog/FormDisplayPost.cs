@@ -404,8 +404,16 @@ namespace Blog
 
         private void button9_Click(object sender, EventArgs e)
         {
-            pnlemoji.Visible = true;
             
+        }
+
+        private void btnEmoji_Click(object sender, EventArgs e)
+        {
+            txbCmt.Multiline = true;
+
+            FormEmoji emojiForm = new FormEmoji();
+            emojiForm.CommentTextBox = txbCmt;
+            emojiForm.ShowDialog();
         }
     }
 }

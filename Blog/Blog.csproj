@@ -184,6 +184,12 @@
     <Compile Include="FormCreatePost.Designer.cs">
       <DependentUpon>FormCreatePost.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormEmoji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmoji.Designer.cs">
+      <DependentUpon>FormEmoji.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormForgotPassword.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -230,6 +236,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormCreatePost.resx">
       <DependentUpon>FormCreatePost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmoji.resx">
+      <DependentUpon>FormEmoji.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormForgotPassword.resx">
       <DependentUpon>FormForgotPassword.cs</DependentUpon>
