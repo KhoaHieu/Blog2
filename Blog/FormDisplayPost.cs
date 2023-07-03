@@ -401,5 +401,11 @@ namespace Blog
         {
 
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            pnlemoji.Visible = true;
+            
+        }
     }
 }
