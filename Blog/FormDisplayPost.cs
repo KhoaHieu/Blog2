@@ -139,7 +139,7 @@ namespace Blog
             }
             if (!check)
             {
-                
+
                 lblUN1.Text = "";
                 lblUN2.Text = "";
                 lblUN3.Text = "";
@@ -156,6 +156,7 @@ namespace Blog
                 pb002.BackgroundImage = null;
                 pb003.BackgroundImage = null;
                 pb004.BackgroundImage = null;
+              
 
                 idxCmt = Class.ListCmt.Instance.List.Count - 1;
 
@@ -193,7 +194,7 @@ namespace Blog
             pnlCmt.Controls.Add(pnl3);
             pnlCmt.Controls.Add(pnl4);
 
-            
+
             Console.WriteLine(listCmt.Count);
 
             for (int j = 0; j < listCmt.Count; j++)
@@ -269,8 +270,9 @@ namespace Blog
 
         private void ptbSend_Click(object sender, EventArgs e)
         {
+            
             String date = DateTime.Now.ToString();
-            Class.Cmt cmt = new Class.Cmt(order[index], Class.CurrUser.ins.UserName, txbCmt.Text,date);
+            Class.Cmt cmt = new Class.Cmt(order[index], Class.CurrUser.ins.UserName, txbCmt.Text, date);
             Class.ListCmt.Instance.List.Add(cmt);
 
             idxCmt = Class.ListCmt.Instance.List.Count - 1;
@@ -391,6 +393,11 @@ namespace Blog
         }
 
         private void lblDate1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblContent3_Click(object sender, EventArgs e)
         {
 
         }

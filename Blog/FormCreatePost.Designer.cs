@@ -92,10 +92,10 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Bauhaus 93", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Verdana", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(344, -1);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(341, 42);
+            this.label8.Size = new System.Drawing.Size(408, 45);
             this.label8.TabIndex = 7;
             this.label8.Text = "Post some thing ...";
             // 

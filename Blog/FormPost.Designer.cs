@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.panelimage = new System.Windows.Forms.Panel();
+            this.lbcounhearth = new System.Windows.Forms.Label();
+            this.bthearth2 = new System.Windows.Forms.Button();
+            this.bthearth1 = new System.Windows.Forms.Button();
+            this.lblAddress = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ptbImage22 = new System.Windows.Forms.PictureBox();
             this.ptbImage21 = new System.Windows.Forms.PictureBox();
@@ -38,7 +42,6 @@
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblTag = new System.Windows.Forms.Label();
             this.lblUN = new System.Windows.Forms.Label();
-            this.lblAddress = new System.Windows.Forms.Label();
             this.panelimage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbImage22)).BeginInit();
@@ -51,6 +54,9 @@
             this.panelimage.BackColor = System.Drawing.Color.White;
             this.panelimage.BackgroundImage = global::Blog.Properties.Resources.cmt5;
             this.panelimage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelimage.Controls.Add(this.lbcounhearth);
+            this.panelimage.Controls.Add(this.bthearth2);
+            this.panelimage.Controls.Add(this.bthearth1);
             this.panelimage.Controls.Add(this.lblAddress);
             this.panelimage.Controls.Add(this.pictureBox1);
             this.panelimage.Controls.Add(this.ptbImage22);
@@ -68,6 +74,48 @@
             this.panelimage.TabIndex = 11;
             this.panelimage.Paint += new System.Windows.Forms.PaintEventHandler(this.panelimage_Paint);
             // 
+            // lbcounhearth
+            // 
+            this.lbcounhearth.AutoSize = true;
+            this.lbcounhearth.Location = new System.Drawing.Point(89, 558);
+            this.lbcounhearth.Name = "lbcounhearth";
+            this.lbcounhearth.Size = new System.Drawing.Size(0, 16);
+            this.lbcounhearth.TabIndex = 14;
+            this.lbcounhearth.Click += new System.EventHandler(this.lbcounhearth_Click);
+            // 
+            // bthearth2
+            // 
+            this.bthearth2.BackgroundImage = global::Blog.Properties.Resources.Heart_corazón_svg;
+            this.bthearth2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bthearth2.Location = new System.Drawing.Point(43, 549);
+            this.bthearth2.Name = "bthearth2";
+            this.bthearth2.Size = new System.Drawing.Size(40, 35);
+            this.bthearth2.TabIndex = 13;
+            this.bthearth2.UseVisualStyleBackColor = true;
+            this.bthearth2.Visible = false;
+            this.bthearth2.Click += new System.EventHandler(this.bthearth2_Click);
+            // 
+            // bthearth1
+            // 
+            this.bthearth1.BackgroundImage = global::Blog.Properties.Resources.images__1_;
+            this.bthearth1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bthearth1.Location = new System.Drawing.Point(43, 549);
+            this.bthearth1.Name = "bthearth1";
+            this.bthearth1.Size = new System.Drawing.Size(40, 35);
+            this.bthearth1.TabIndex = 12;
+            this.bthearth1.UseVisualStyleBackColor = true;
+            this.bthearth1.Click += new System.EventHandler(this.bthearth1_Click);
+            // 
+            // lblAddress
+            // 
+            this.lblAddress.AutoSize = true;
+            this.lblAddress.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAddress.Location = new System.Drawing.Point(23, 80);
+            this.lblAddress.Name = "lblAddress";
+            this.lblAddress.Size = new System.Drawing.Size(73, 25);
+            this.lblAddress.TabIndex = 11;
+            this.lblAddress.Text = "label1";
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -84,7 +132,7 @@
             this.ptbImage22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ptbImage22.Location = new System.Drawing.Point(350, 224);
             this.ptbImage22.Name = "ptbImage22";
-            this.ptbImage22.Size = new System.Drawing.Size(244, 347);
+            this.ptbImage22.Size = new System.Drawing.Size(264, 319);
             this.ptbImage22.TabIndex = 9;
             this.ptbImage22.TabStop = false;
             this.ptbImage22.Visible = false;
@@ -93,9 +141,9 @@
             // 
             this.ptbImage21.BackColor = System.Drawing.Color.Transparent;
             this.ptbImage21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ptbImage21.Location = new System.Drawing.Point(52, 224);
+            this.ptbImage21.Location = new System.Drawing.Point(43, 224);
             this.ptbImage21.Name = "ptbImage21";
-            this.ptbImage21.Size = new System.Drawing.Size(259, 347);
+            this.ptbImage21.Size = new System.Drawing.Size(268, 319);
             this.ptbImage21.TabIndex = 8;
             this.ptbImage21.TabStop = false;
             this.ptbImage21.Visible = false;
@@ -104,9 +152,9 @@
             // 
             this.ptbImage1.BackColor = System.Drawing.Color.White;
             this.ptbImage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ptbImage1.Location = new System.Drawing.Point(43, 224);
+            this.ptbImage1.Location = new System.Drawing.Point(28, 224);
             this.ptbImage1.Name = "ptbImage1";
-            this.ptbImage1.Size = new System.Drawing.Size(563, 347);
+            this.ptbImage1.Size = new System.Drawing.Size(597, 319);
             this.ptbImage1.TabIndex = 7;
             this.ptbImage1.TabStop = false;
             // 
@@ -162,16 +210,6 @@
             this.lblUN.TabIndex = 0;
             this.lblUN.Text = "username";
             // 
-            // lblAddress
-            // 
-            this.lblAddress.AutoSize = true;
-            this.lblAddress.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAddress.Location = new System.Drawing.Point(23, 80);
-            this.lblAddress.Name = "lblAddress";
-            this.lblAddress.Size = new System.Drawing.Size(73, 25);
-            this.lblAddress.TabIndex = 11;
-            this.lblAddress.Text = "label1";
-            // 
             // FormPost
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -204,5 +242,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panelimage;
         private System.Windows.Forms.Label lblAddress;
+        private System.Windows.Forms.Button bthearth2;
+        private System.Windows.Forms.Button bthearth1;
+        private System.Windows.Forms.Label lbcounhearth;
     }
 }

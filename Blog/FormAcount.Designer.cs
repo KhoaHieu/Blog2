@@ -63,10 +63,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Bauhaus 93", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(355, 38);
+            this.label2.Font = new System.Drawing.Font("Verdana", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(333, 38);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(366, 53);
+            this.label2.Size = new System.Drawing.Size(428, 57);
             this.label2.TabIndex = 27;
             this.label2.Text = "Manage Acount";
             // 
@@ -223,6 +223,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "FormAcount";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.FormAcount_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

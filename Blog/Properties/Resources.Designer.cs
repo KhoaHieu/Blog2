@@ -343,9 +343,49 @@ namespace Blog.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Heart_corazón_svg {
+            get {
+                object obj = ResourceManager.GetObject("Heart_corazón.svg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image {
             get {
                 object obj = ResourceManager.GetObject("image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images {
+            get {
+                object obj = ResourceManager.GetObject("images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images__1_ {
+            get {
+                object obj = ResourceManager.GetObject("images (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images__2_ {
+            get {
+                object obj = ResourceManager.GetObject("images (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -366,6 +406,17 @@ namespace Blog.Properties {
         internal static System.Drawing.Bitmap istockphoto_1362223693_612x612 {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1362223693-612x612", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_social_media_facebook_city_thumb_signal_like_butto_like_new_cliparts_5aaea4f2518ee9_2083784815213949303341 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-social-media-facebook-city-thumb-signal-like-butto-like-new-cliparts-5aae" +
+                        "a4f2518ee9.2083784815213949303341", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -476,6 +527,16 @@ namespace Blog.Properties {
         internal static System.Drawing.Bitmap pngtree_gallery_icon_for_your_project_png_image_17311001 {
             get {
                 object obj = ResourceManager.GetObject("pngtree-gallery-icon-for-your-project-png-image_17311001", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_vector_like_icon_png_image_695362 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-vector-like-icon-png-image_695362", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

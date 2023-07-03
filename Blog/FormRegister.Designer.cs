@@ -213,10 +213,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Bauhaus 93", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(105, 14);
+            this.label2.Font = new System.Drawing.Font("Verdana", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(101, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(159, 42);
+            this.label2.Size = new System.Drawing.Size(195, 45);
             this.label2.TabIndex = 17;
             this.label2.Text = "Register";
             // 
@@ -245,11 +245,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Bauhaus 93", 31.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Verdana", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(25, 315);
+            this.label7.Location = new System.Drawing.Point(21, 308);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(388, 60);
+            this.label7.Size = new System.Drawing.Size(411, 57);
             this.label7.TabIndex = 0;
             this.label7.Text = "Welcome Page";
             // 

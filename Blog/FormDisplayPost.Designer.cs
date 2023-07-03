@@ -34,6 +34,8 @@
             this.txbCmt = new System.Windows.Forms.TextBox();
             this.lblCommentCount = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -44,11 +46,9 @@
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -153,6 +153,36 @@
             this.pictureBox2.Size = new System.Drawing.Size(38, 30);
             this.pictureBox2.TabIndex = 19;
             this.pictureBox2.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImage = global::Blog.Properties.Resources.Picture81;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(36, 530);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(36, 31);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "<";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImage = global::Blog.Properties.Resources.Picture81;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(668, 530);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(32, 31);
+            this.button2.TabIndex = 2;
+            this.button2.Text = ">";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel5
             // 
@@ -272,20 +302,6 @@
             this.label4.TabIndex = 19;
             this.label4.Text = "Advertisement";
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = global::Blog.Properties.Resources.Picture81;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(5, 488);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(32, 31);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "<";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // panel4
             // 
             this.panel4.BackgroundImage = global::Blog.Properties.Resources.dangbai;
@@ -321,20 +337,6 @@
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.BackgroundImage = global::Blog.Properties.Resources.Picture81;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(701, 476);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(33, 31);
-            this.button2.TabIndex = 2;
-            this.button2.Text = ">";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel3
             // 
@@ -480,11 +482,11 @@
             // lblUN4
             // 
             this.lblUN4.BackColor = System.Drawing.Color.Transparent;
-            this.lblUN4.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUN4.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUN4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblUN4.Location = new System.Drawing.Point(65, 3);
             this.lblUN4.Name = "lblUN4";
-            this.lblUN4.Size = new System.Drawing.Size(157, 36);
+            this.lblUN4.Size = new System.Drawing.Size(113, 36);
             this.lblUN4.TabIndex = 2;
             this.lblUN4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -492,7 +494,7 @@
             // 
             this.lblContent4.AllowDrop = true;
             this.lblContent4.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContent4.Location = new System.Drawing.Point(65, 40);
+            this.lblContent4.Location = new System.Drawing.Point(53, 39);
             this.lblContent4.Name = "lblContent4";
             this.lblContent4.Size = new System.Drawing.Size(154, 30);
             this.lblContent4.TabIndex = 1;
@@ -530,11 +532,11 @@
             // 
             // lblUN3
             // 
-            this.lblUN3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUN3.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUN3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblUN3.Location = new System.Drawing.Point(65, 3);
             this.lblUN3.Name = "lblUN3";
-            this.lblUN3.Size = new System.Drawing.Size(156, 36);
+            this.lblUN3.Size = new System.Drawing.Size(113, 36);
             this.lblUN3.TabIndex = 2;
             this.lblUN3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblUN3.Click += new System.EventHandler(this.lblUN3_Click);
@@ -543,10 +545,11 @@
             // 
             this.lblContent3.AllowDrop = true;
             this.lblContent3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContent3.Location = new System.Drawing.Point(65, 43);
+            this.lblContent3.Location = new System.Drawing.Point(53, 43);
             this.lblContent3.Name = "lblContent3";
             this.lblContent3.Size = new System.Drawing.Size(154, 30);
             this.lblContent3.TabIndex = 1;
+            this.lblContent3.Click += new System.EventHandler(this.lblContent3_Click);
             // 
             // pnl2
             // 
@@ -581,11 +584,11 @@
             // 
             // lblUN2
             // 
-            this.lblUN2.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUN2.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUN2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblUN2.Location = new System.Drawing.Point(65, 8);
             this.lblUN2.Name = "lblUN2";
-            this.lblUN2.Size = new System.Drawing.Size(165, 31);
+            this.lblUN2.Size = new System.Drawing.Size(113, 31);
             this.lblUN2.TabIndex = 2;
             this.lblUN2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -593,7 +596,7 @@
             // 
             this.lblContent2.AllowDrop = true;
             this.lblContent2.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContent2.Location = new System.Drawing.Point(65, 39);
+            this.lblContent2.Location = new System.Drawing.Point(53, 39);
             this.lblContent2.Name = "lblContent2";
             this.lblContent2.Size = new System.Drawing.Size(154, 30);
             this.lblContent2.TabIndex = 1;
@@ -619,7 +622,7 @@
             this.lblDate1.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDate1.Location = new System.Drawing.Point(4, 73);
             this.lblDate1.Name = "lblDate1";
-            this.lblDate1.Size = new System.Drawing.Size(216, 27);
+            this.lblDate1.Size = new System.Drawing.Size(211, 27);
             this.lblDate1.TabIndex = 4;
             this.lblDate1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblDate1.Click += new System.EventHandler(this.lblDate1_Click);
@@ -636,19 +639,19 @@
             // 
             // lblUN1
             // 
-            this.lblUN1.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUN1.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUN1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUN1.Location = new System.Drawing.Point(65, 4);
+            this.lblUN1.Location = new System.Drawing.Point(55, 4);
             this.lblUN1.Name = "lblUN1";
-            this.lblUN1.Size = new System.Drawing.Size(155, 28);
+            this.lblUN1.Size = new System.Drawing.Size(120, 28);
             this.lblUN1.TabIndex = 2;
             this.lblUN1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblContent1
             // 
             this.lblContent1.AllowDrop = true;
-            this.lblContent1.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContent1.Location = new System.Drawing.Point(66, 43);
+            this.lblContent1.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContent1.Location = new System.Drawing.Point(51, 43);
             this.lblContent1.Name = "lblContent1";
             this.lblContent1.Size = new System.Drawing.Size(154, 30);
             this.lblContent1.TabIndex = 1;
@@ -679,11 +682,11 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1030, 839);
             this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblCommentCount);
             this.Controls.Add(this.panel5);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.ptbSend);
             this.Controls.Add(this.txbCmt);

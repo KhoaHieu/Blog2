@@ -22,7 +22,10 @@ namespace Blog
             InitializeComponents();
             // Gắn sự kiện Paint cho Form
             this.Paint += FormPost_Paint;
+
         }
+
+        
         private void InitializeComponents()
         {
             // Các cài đặt khác cho Form
@@ -152,6 +155,38 @@ namespace Blog
         }
 
         private void lblDate_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlhearth2_Paint(object sender, PaintEventArgs e)
+        {
+           
+        }
+
+        private void pnlhearth1_Paint(object sender, PaintEventArgs e)
+        {
+           
+        }
+        int clickCount = 0; 
+        private void bthearth1_Click(object sender, EventArgs e)
+        {
+            clickCount++;
+            lbcounhearth.Text = clickCount.ToString();
+            bthearth2.Visible = true;
+            bthearth1.Visible = false;
+        }
+
+        private void bthearth2_Click(object sender, EventArgs e)
+        {
+            clickCount--;
+            lbcounhearth.Text = clickCount.ToString();
+            bthearth1.Visible = true;
+
+            bthearth2.Visible = false;
+        }
+
+        private void lbcounhearth_Click(object sender, EventArgs e)
         {
 
         }
